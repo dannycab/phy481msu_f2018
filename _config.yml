@@ -24,3 +24,5 @@ collection:
     output: true
   notes:
     output: true
+
+theme: jekyll-theme-minimal
