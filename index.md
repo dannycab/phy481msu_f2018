@@ -5,7 +5,9 @@ permalink: ./index.html
 use_math: true
 ---
 
-## Electricity and Magnetism I Fall 2017
+**Syllabus is being prepared. Nothing is complete until this message is removed.**
+
+## Electricity and Magnetism I Fall 2018
 
 [Course Learning Goals](./learning_goals.html)
 
@@ -14,20 +16,11 @@ use_math: true
 -   Instructor: [Prof. Danny Caballero](http://dannycab.github.io)
 -   Contact: <caballero@pa.msu.edu>, cell: (517) 420-5330, office:
     1310-A BPS
--   Web page: [dannycab.github.io/phy481msu_f2017/](http://dannycab.github.io/phy481msu_f2017/)
+-   Web page: [dannycab.github.io/phy481msu_f2018/](http://dannycab.github.io/phy481msu_f2018/)
 -   Class Meetings: MWF 12:40 PM - 1:30 PM (1415 BPS)
 -   Office hrs: Open door policy. I enjoy visiting and talking with you about physics.
 
--   TA/Grader: Zhouyou Fan <fanzhouy@msu.edu>
-
-#### Piazza Discussion Forum
-*This term we will be using Piazza for class discussion. The system is highly catered to getting you help fast and efficiently from classmates, the TA, and myself. Rather than emailing questions to the teaching staff, I encourage you to post your questions on Piazza. Find our class page at: <https://piazza.com/msu/fall2017/phy481/home>*
-
-#### Homework Help Session
-
-* Help Sessions
-    * Monday 4-5pm in 1420 BPS
-    * Tuesday 4-5pm in 1300 BPS
+-   TA/Grader: TBD
 
 ### Overview
 
