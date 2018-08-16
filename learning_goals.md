@@ -111,7 +111,7 @@ Curvilinear coordinates; Dirac delta function; Vector fields
 -   Expand \\(\\dfrac{1}{(1+e)}\\)
     and \\(\\dfrac{1}{(1-e)}\\) when e is very small (Taylor series).
 
-**Goals** - Students should be able to, 
+**Goals** - Students should be able to,
 
 -   Evaluate the integral from negative infinity to infinity of the
     delta function
@@ -433,17 +433,6 @@ The Auxiliary Field H
 -   Students should be able to identify the appropriate boundary
     conditions on H given its relationship to M and K\_free.
 
-#### Chapter 7: Electrodynamics
-
-**Topics** - Electromotive force (Ohm's Law, emf); Electromagnetic
-induction (Faraday's Law); Maxwell's equations
-
-There is not a general consensus on whether this chapter should be
-covered in the first semester. Most students from this course go on to
-take the second semester and will see Maxwell's equations there. Even if
-this material is covered in here, it may still be prudent to review at
-the beginning of the following semester.
-
 #### Course Objectives: Calculation and Computation
 
 **Goals**
@@ -480,4 +469,3 @@ the beginning of the following semester.
 -   Calculate the field of a magnetized object
 -   Compute the bound surface and volume currents in a magnetized object
 -   Compute magnetization, H field, susceptibility and permeability
-

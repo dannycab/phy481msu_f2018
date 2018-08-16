@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>
+      
+        Physics 481
+      
+    </title>
+
+    <meta name="author" content="" />
+
+    <!-- Description -->
+    
+      <meta name="description" content="Website for Physics 481 - Electricity and Magnetism I at Michigan State University
+">
+    
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <link rel="stylesheet" href="/phy481msu_f2018/reveal.js/css/reveal.css"/>
+    
+      <link rel="stylesheet" href="/phy481msu_f2018/reveal.js/css/theme/white.css" id="theme"/>
+    
+
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="/phy481msu_f2018/reveal.js/lib/css/zenburn.css"/>
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? '/phy481msu_f2018/reveal.js/css/print/pdf.css' : '/phy481msu_f2018/reveal.js/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <link rel="apple-touch-icon" href="/phy481msu_f2018/apple-touch-icon.png" />
+
+    <link rel="canonical" href="http://localhost:4000/phy481msu_f2018/notes/18-slides.html">
+
+    <!--[if lt IE 9]>
+    <script src="lib/js/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="reveal">
+      <div class="slides">
+        <section data-markdown="">
+
+The Method of Relaxation also works for Poisson's equation (i.e., when there is charge!).
+
+Given, $\nabla^2 V \approx \dfrac{V(x+a)-2V(x)+V(x-a)}{a^2}$
+
+Which equations describes the appropriate "averaging" that we must do:
+
+1. $V(x) = \dfrac{1}{2}(V(x+a)-V(x-a))$
+2. $V(x) = \dfrac{\rho(x)}{\varepsilon_0}+\dfrac{1}{2}(V(x+a)+V(x-a))$
+3. $V(x) = \dfrac{a^2\rho(x)}{2\varepsilon_0}+\dfrac{1}{2}(V(x+a)+V(x-a))$
+
+Note:
+* Correct answer: C
+
+
+</section>
+
+<section data-markdown="">
+
+## Announcements
+
+* Exam 1 is graded
+  - Should have received email this morning with updated grades
+* Danny out of town Friday
+  - Norman Birge will substitute
+
+</section>
+
+<section data-markdown="">
+
+### Exam 1 Grades
+
+&lt;img src="./images/exam1.png" align="center" style="width: 500px";/&gt;
+
+
+
+</section>
+
+<section data-markdown="">
+
+### Homework Averages
+
+&lt;img src="./images/hw.png" align="center" style="width: 500px";/&gt;
+
+
+
+</section>
+
+<section data-markdown="">
+
+### Please do your homework
+
+&lt;img src="./images/exam1vhw.png" align="center" style="width: 500px";/&gt;
+
+
+
+</section>
+
+<section data-markdown="">
+
+### Separation of Variables (Cartesian)
+
+&lt;img src="./images/cartesian_sep_variables.png" align="center" style="width: 500px";/&gt;
+
+
+
+</section>
+
+<section data-markdown="">
+
+Say you have three functions $f(x)$, $g(y)$, and $h(z)$.
+$f(x)$  depends on $x$ but not on $y$ or $z$.
+$g(y)$ depends on $y$ but not on $x$ or $z$.
+$h(z)$ depends on $z$ but not on $x$ or $y$.
+
+If $f(x) + g(y) + h(z) = 0$ for all $x$, $y$, $z$, then:
+
+1. All three functions are constants (i.e. they do not depend on $x$, $y$, $z$ at all.)
+2. At least one of these functions has to be zero everywhere.
+3. All of these functions have to be zero everywhere.
+4. All three functions have to be linear functions in $x$, $y$, or $z$ respectively (such as $f(x)=ax+b$)
+
+Note:
+* CORRECT ANSWER: A
+
+</section>
+
+<section data-markdown="">
+
+If our general solution contains the function,
+
+$$X(x) = Ae^{\sqrt{c}x} + Be^{-\sqrt{c}x}$$
+
+What does our solution look like if $c&lt;0$; what about if $c&gt;0$?
+
+1. Exponential; Sinusoidal
+2. Sinusoidal; Exponential
+3. Both Exponential
+4. Both Sinusoidal
+5. ???
+
+Note:
+* CORRECT ANSWER: B
+
+</section>
+
+<section data-markdown="">
+
+Our example problem has the following boundary conditions:
+
+* $V(0,y&gt;0) = 0; V(a,y&gt;0) = 0$
+* $V(x_{0\rightarrow a},y=0) = V_0; V(x,y\rightarrow \infty) = 0$
+
+If $X''= c_1 X$ and $Y'' = c_2Y$ with $c_1 + c_2 = 0$, which is constant is positive?
+
+1. $c_1$
+2. $c_2$
+3. It doesn't matter either can be
+
+Note:
+* CORRECT ANSWER: B
+</section>
+
+      </div>
+    </div>
+
+    <script src="/phy481msu_f2018/reveal.js/lib/js/head.min.js"></script>
+    <script src="/phy481msu_f2018/reveal.js/js/reveal.js"></script>
+    <script>
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+        
+          transition: 'slide',
+        
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: '/phy481msu_f2018/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: '/phy481msu_f2018/reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: '/phy481msu_f2018/reveal.js/plugin/notes/notes.js', async: true },
+          { src: '/phy481msu_f2018/reveal.js/plugin/math/math.js', async: true }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>

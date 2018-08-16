@@ -19,8 +19,11 @@ use_math: true
 -   Web page: [dannycab.github.io/phy481msu_f2018/](http://dannycab.github.io/phy481msu_f2018/)
 -   Class Meetings: MWF 12:40 PM - 1:30 PM (1415 BPS)
 -   Office hrs: Open door policy. I enjoy visiting and talking with you about physics.
-
 -   TA/Grader: TBD
+
+### Course communication
+
+We will be using [Slack](http://slack.com/) for course communication this semester. Slack is a combination bullentin board, instant messaging, and file sharing system. It works with your computer as an app or in browser, and on your mobile device. You should have all received invitations to join our class Slack team: [PHY 481 MSU F2018](http://phy481msuf2018.slack.com). I will post course notes, solutions, and other announcements through our Slack team, so you will want to join it. Also, please enjoy the [giphy](https://giphy.com/) integration.
 
 ### Overview
 
@@ -69,14 +72,13 @@ and effort to carefully read and follow the text. The
 #### Class Meetings
 
 Classroom Etiquette: Please turn off all cell phones and pagers when
-entering any classroom. Please do not throw vegetables at the
-instructor. Private chatter during lecture is very distracting, but it
+entering any classroom. Private chatter during lecture is very distracting, but it
 is perfectly OK to interrupt the lecture by yelling "Question!"
 Questions in lecture are always good, and are strongly encouraged!
 
 #### Homework
 
-There will be a homework due every Wednesday at the start of class. Late
+There will be a homework due every Friday at the start of class. Late
 homework can't be accepted once solutions are posted - but, your lowest
 score will be dropped. Homework is exceedingly important for developing
 an understanding of the course material, not to mention building skills
@@ -111,7 +113,7 @@ will need to get up and running with Jupyter notebooks.
 
 #### Help Sessions
 
-(Times listed at the top of the syllabus) Help sessions/office hours are to facilitate your learning. We encourage attendance - plan on working in small groups, our role will be as learning coaches. Both sessions are homework-centric, but we will not be explicitly telling anyone how to do the homework (how would that help you learn?) I strongly encourage you to start all problems on your own. If you come to help sessions "cold", the value of homework to you will be greatly reduced.
+(Times will be listed at the top of the syllabus) Help sessions/office hours are to facilitate your learning. We encourage attendance - plan on working in small groups, our role will be as learning coaches. Both sessions are homework-centric, but we will not be explicitly telling anyone how to do the homework (how would that help you learn?) I strongly encourage you to start all problems on your own. If you come to help sessions "cold", the value of homework to you will be greatly reduced.
 
 ### Grading and Exams
 
@@ -121,15 +123,17 @@ in-class and online participation, which basically "unweights" the exams.
 
 | Activity   |            Date              | Percent of Grade |
 |------------|:----------------------------:|-----------------:|
-| Exam 1     |       Wed. Oct. 4 (7pm-9pm)  |              20% |
-| Exam 2     |       Wed. Nov. 8 (7pm-9pm)  |              20% |
-| Final Exam |       Tues. Dec. 12          |              20% |
-| Homework   |  Due Wed. at start of class  |              40% |
+| Exam 1     |       Wed. Oct. 3 (7pm-9pm)  |              20% |
+| Exam 2     |       Wed. Nov. 7 (7pm-9pm)  |              20% |
+| Final Exam |       Tues. Dec. 11          |              20% |
+| Homework   |  Due Fri. at start of class  |              40% |
 
 
 **Clickers:** Clickers are pure extra credit: they REDUCE total midterm weights up to 10% of exam total. That is, the total number of clicker questions you answer divided by the total number of questions given is the fraction of the 10% reduction you will receive. For example, let's assume you answer 90% of the clicker questions over the course of the semester then your two midterm exams count for 36.4% of your grade instead of 40%.
 
-**Exams:** There are no makeups. You may not miss any exam except for
+**Exams:** Exams will be held on the evenings as listed above. The reason for evenings
+exams is to give you the time to work a regular 50-minute exam without the time pressure of
+having less than 50 minutes to complete it. There are no makeups. You may not miss any exam except for
 reasons beyond your control, approved by Prof. Caballero (usually a
 confirmed medical problem with written documentation.) In the unusual
 case of an (at most, single) excused absence from midterms, I'll use an
