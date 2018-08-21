@@ -18,7 +18,7 @@ use_math: true
     1310-A BPS
 -   Web page: [dannycab.github.io/phy481msu_f2018/](http://dannycab.github.io/phy481msu_f2018/)
 -   Class Meetings: MWF 12:40 PM - 1:30 PM (1415 BPS)
--   Office hrs: Open door policy. I enjoy visiting and talking with you about physics.
+-   Office hrs: Open door policy. I enjoy visiting and talking with you about physics. Please message me to make sure I'm in and available.
 -   TA/Grader: TBD
 
 ### Course communication
@@ -73,7 +73,7 @@ and effort to carefully read and follow the text. The
 
 Classroom Etiquette: Please turn off all cell phones and pagers when
 entering any classroom. Private chatter during lecture is very distracting, but it
-is perfectly OK to interrupt the lecture by yelling "Question!"
+is perfectly OK to interrupt the lecture by raising your hand and yelling "Question!"
 Questions in lecture are always good, and are strongly encouraged!
 
 #### Homework
@@ -126,12 +126,21 @@ in-class and online participation, which basically "unweights" the exams.
 | Exam 1     |       Wed. Oct. 3 (7pm-9pm)  |              20% |
 | Exam 2     |       Wed. Nov. 7 (7pm-9pm)  |              20% |
 | Final Exam |       Tues. Dec. 11          |              20% |
-| Homework   |  Due Fri. at start of class  |              40% |
+| Homework   |           Fridays            |              40% |
 
 
-**Clickers:** Clickers are pure extra credit: they REDUCE total midterm weights up to 10% of exam total. That is, the total number of clicker questions you answer divided by the total number of questions given is the fraction of the 10% reduction you will receive. For example, let's assume you answer 90% of the clicker questions over the course of the semester then your two midterm exams count for 36.4% of your grade instead of 40%.
+#### Clickers
 
-**Exams:** Exams will be held on the evenings as listed above. The reason for evenings
+Clickers are pure extra credit. They will add up to 5 points to your lowest midterm.
+That is, take the total number of clicker question you answered (correct or not)
+and divide by the total number asked in class. I will add up that fraction of points
+up to 5 to your lowest midterm grade. Say you answer 90% of the clicker questions
+and your lowest midterm grade is an 80. Then, after the extra credit that midterm
+grade will be an 84.5% with the 4.5 point bonus from clickers (90% of 5 points).
+
+#### Exams
+
+Exams will be held on the evenings as listed above. The reason for evenings
 exams is to give you the time to work a regular 50-minute exam without the time pressure of
 having less than 50 minutes to complete it. There are no makeups. You may not miss any exam except for
 reasons beyond your control, approved by Prof. Caballero (usually a
