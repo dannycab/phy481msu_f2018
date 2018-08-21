@@ -4,4 +4,11 @@ layout: page
 permalink: notes/index.html
 ---
 
-- 01 Welcome to PHY 481 (Aug. 29): [[HTML]](./01-slides.html) [[PDF]](./01-slides.pdf)
+### Handwritten Notes
+
+- [01 Mathematical Review](./handwritten/01_Mathematical_Review.pdf)
+- [02 Numerical Integration](./handwritten/02_Numerical_Integration.pdf)
+
+### Slides
+
+- Aug 29 Welcome to PHY 481: [[HTML]](./01-slides.html) [[PDF]](./01-slides.pdf)
