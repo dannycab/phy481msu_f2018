@@ -443,9 +443,24 @@
 <p>In this course, you will perform lots of different kinds of integrals, some of which you might have done in previous courses. In this problem, we will just dust off some of those integration techniques. You will need to explain key steps of the integration for each one, not simply do the mathematics.</p>
 
 <ol>
-  <li><em>Line (or path) integrals</em> - These integrals are important for thinking about energy. Determine the work done by the vector force $\mathbf{F} = y^2\;\hat{x} - 2x^2\;\hat{y}$ along the cubic path $y=x^3$ from (0,0) to (2,8). This path is restricted to the x-y plane and recall that $W=\int \mathbf{F}\cdot d\mathbf{l}$.</li>
-  <li><em>Surface integrals</em> - Calculating the flux over a particular surface is a very common way of determine the electric field. Evaluate the integral $\int_S \mathbf{v}\cdot d\mathbf{A}$ where $\mathbf{v}(x,y,z) = 5x\;\hat{y} + 2y\;\hat{z}$ and $S$ is the rectangular surface lying in x-z plane from (0,0,0) to (1,0,5). Choose the direction of $+\hat{y}$ to be indicative of positive flux.</li>
-  <li><em>Volume integrals</em> - It will be common for you to determine the amount of total charge in a situation where the charge is distributed in space according to some function. You might be familiar with this concept from the perspective of distributed mass. Consider two different spheres: one with uniform mass density, $\rho_0$, and the other with a radially varying density, $\rho(r)=\frac{3\rho_0}{4R^2}r^2$. If both spheres have the same radius $R$, which has more mass?</li>
+  <li><em>Line (or path) integrals</em> - These integrals are important for thinking about energy (and in our case electric potential).
+    <ul>
+      <li>Determine the work done by the vector force $\mathbf{F} = y^2\;\hat{x} - 2x^2\;\hat{y}$ along the path $y=\sqrt{x}$ from (0,0) to (4,2). This path is restricted to the x-y plane and recall that $W=\int \mathbf{F}\cdot d\mathbf{l}$.</li>
+      <li>Is the result of this line integral path-independent (i.e., is $\mathbf{F}$ a <a href="https://en.wikipedia.org/wiki/Conservative_vector_field">conservative vector field</a>)? Explain why or why not.</li>
+    </ul>
+  </li>
+  <li><em>Surface integrals</em> - Calculating the flux over a particular surface is a very common way of determine the electric field.
+    <ul>
+      <li>Evaluate the integral $\int_S \mathbf{v}\cdot d\mathbf{A}$ where $\mathbf{v}(x,y,z) = 5x\;\hat{y} + 2y\;\hat{z}$ and $S$ is the rectangular surface lying in x-z plane from (0,0,0) to (1,0,5). Choose the direction of $+\hat{y}$ to be indicative of positive flux.</li>
+      <li>Explain how the resulting sign of the flux makes sense. You may use sketches or diagrams.</li>
+    </ul>
+  </li>
+  <li><em>Volume integrals</em> - It will be common for you to determine the amount of total charge in a situation where the charge is distributed in space according to some function. You might be familiar with this concept from the perspective of distributed mass.
+    <ul>
+      <li>Consider two different spheres: one with uniform mass density, $\rho_0$, and the other with a radially varying density, $\rho(r)=\frac{3\rho_0}{4R^2}r^2$.</li>
+      <li>If both spheres have the same radius $R$, which has more mass?</li>
+    </ul>
+  </li>
 </ol>
 
 <h3 id="2-what-can-be-done-to-a-scalar-function">2. What can be done to a scalar function?</h3>
@@ -471,7 +486,7 @@
 
 <ol>
   <li>Calculate the gradient of the magnitude of the separation vector (i.e., $\nabla|\vec{\mathfrak{r}}|$) and the gradient of the inverse of the magnitude of the separation vector (i.e., $\nabla \dfrac{1}{|\vec{\mathfrak{r}}|}$) and show the gradients of these functions can be written as functions of the separation vector ($\vec{\mathfrak{r}}$) and/or its magntiude ($|\vec{\mathfrak{r}}|$). (<em>Hint: it might be easier to do this by explicitly writing out the function in Cartesian coordinates.</em>)</li>
-  <li>After determining the gradients of each of these functions by hand, <a href="../jupyter/HW1-GradientProblem.ipynb">download this Jupyter notebook</a> (you can <a href="https://github.com/dannycab/phy481msu_f2017/blob/master/jupyter/HW1-GradientProblem.ipynb">view it here</a>), which demonstrates how to calculate gradients using the <a href="http://sympy.org">sympy</a> library for Python. Working through the notebook, use it to check the work you did by hand. Do you get the same answers?</li>
+  <li>After determining the gradients of each of these functions by hand, <a href="/phy481msu_f2018/jupyter/HW1-GradientProblem.ipynb">download this Jupyter notebook</a> (you can <a href="https://github.com/dannycab/phy481msu_f2018/blob/master/jupyter/HW1-GradientProblem.ipynb">view it here</a>), which demonstrates how to calculate gradients using the <a href="http://sympy.org">sympy</a> library for Python. Working through the notebook, use it to check the work you did by hand. Do you get the same answers?</li>
 </ol>
 
 <p><strong>Important: In this class, we are strongly encouraging you to use the tools of modern science (i.e., computing) in a responsible way. This problem demonstrates that you may want to use Python and sympy to check the work that you have done analytically.</strong></p>
@@ -519,7 +534,7 @@
 </table>
 
 <h3 id="6-plotting-vector-functions-with-matplotlib">6. Plotting vector functions with <code class="highlighter-rouge">matplotlib</code></h3>
-<p>Physics is both a mathematical and visual science. It is important to develop the ability to sketch and plot figures of various types. For the early part of this class, plotting the field generated by electric charges is important to understanding the field itself. In this problem, you will learn to use the <a href="http://matplotlib.org"><code class="highlighter-rouge">matplotlib</code> library</a> to <a href="http://matplotlib.org/examples/pylab_examples/quiver_demo.html">plot vector fields</a>. As with the previous computational problem, you can <a href="../jupyter/HW1-VectorFieldsProblem.ipynb">download this working Jupyter notebook</a> (<a href="https://github.com/dannycab/phy481msu_f2017/blob/master/jupyter/HW1-VectorFieldsProblem.ipynb">view it here</a>), which describes how this kind of plotting is done for a specific case ($\vec{v}(x,y)=y\hat{x}$).</p>
+<p>Physics is both a mathematical and visual science. It is important to develop the ability to sketch and plot figures of various types. For the early part of this class, plotting the field generated by electric charges is important to understanding the field itself. In this problem, you will learn to use the <a href="http://matplotlib.org"><code class="highlighter-rouge">matplotlib</code> library</a> to <a href="http://matplotlib.org/examples/pylab_examples/quiver_demo.html">plot vector fields</a>. As with the previous computational problem, you can <a href="/phy481msu_f2018/jupyter/HW1-VectorFieldsProblem.ipynb">download this working Jupyter notebook</a> (<a href="https://github.com/dannycab/phy481msu_f2018/blob/master/jupyter/HW1-VectorFieldsProblem.ipynb">view it here</a>), which describes how this kind of plotting is done for a specific case ($\vec{v}(x,y)=y\hat{x}$).</p>
 
 <p>It will be up to you to plot additional figures for these cases:</p>
 
@@ -540,6 +555,30 @@
   <li>What does your result from the previous question tell you about possibility of swirly-ness of the gradient of a temperature field, $\nabla T$, over any specified surface?</li>
   <li>From vector calculus, you know that the divergence of the curl of any vector field is zero, $\nabla \cdot (\nabla \times \mathbf{v}) = 0$. Use the corollary of Stokes’ theorem, namely that the closed surface integral of the curl of a vector field is zero, $\oint_S (\nabla \times \mathbf{v})\cdot d\mathbf{a} = 0 $, along with the divergence theorem, $\int(\nabla \cdot \mathbf{v}) d\tau = \oint_S \mathbf{v}\cdot d\mathbf{a}$, to demonstrate that the divergence of a curl is zero. What is the essential argument that needs to be made the proves the result is generalizable to any situation? (<em>Hint: The volume (V) and thus the surface (S) that bounds it are not specified.</em>)</li>
   <li>By doing these two proofs, what do you feel like you learned about vector calculus that you didn’t already know?</li>
+</ol>
+
+<h3 id="8-applying-vector-calculus-knowledge">8. Applying vector calculus knowledge</h3>
+
+<p>Griffths and other E&amp;M writers like to use elegant conceptualizations that quickly get you to a result with seemingly very little work. This relies on a deeper understanding of vector calculus, which you will develop in this course. In this problem, you will explain a conceptualization that helps you come to a result, then you will connect that conceptualization to a mathematical proof. For this, consider the surface integral that we define as the ‘‘vector area’’,</p>
+
+<p>$\mathbf{a} = \iint_S d\mathbf{a}$.</p>
+
+<ol>
+  <li>For a hemispherical bowl (a half sphere) of radius $R$, you will find $\mathbf{a}$. Sketch the situation and show the vector $d\mathbf{a}$ in your sketch. In which direction will $\mathbf{a}$ point once the integral is complete? How do you know?</li>
+  <li>
+    <table>
+      <tbody>
+        <tr>
+          <td>What is a reasonable guess for the value of $</td>
+          <td>\mathbf{a}</td>
+          <td>$? Why is that a reasonable guess?</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+  <li>Compute directly the value of $\mathbf{a}$ and comment on your guesses from parts 1 and 2. It’s ok if your answers to parts 1 and 2 don’t match the computed answer. Explain how things fit together (e.g., What did you get right? What needs more work on your conceptualization?).</li>
+  <li>The value of $\mathbf{a}$ takes on the small value for <em>any</em> closed surface. What is a reasonable guess for $\mathbf{a}$ in this case? What is your rationale that makes that guess reasonable?</li>
+  <li>Show using the divergence theorem what the value of $\mathbf{a}$ is for any closed surface. Compare your result to your answer to part 4. Again, it’s ok if your answer to part 4 don’t match the computed answer. Explain how things fit together (e.g., What did you get right? What needs more work on your conceptualization?).</li>
 </ol>
 
   </div>

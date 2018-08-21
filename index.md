@@ -5,8 +5,6 @@ permalink: ./index.html
 use_math: true
 ---
 
-**Syllabus is being prepared. Nothing is complete until this message is removed.**
-
 ## Electricity and Magnetism I Fall 2018
 
 [Course Learning Goals](./learning_goals.html)
