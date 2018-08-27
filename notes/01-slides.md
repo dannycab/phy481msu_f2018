@@ -1,8 +1,9 @@
 ---
 layout: slide
-theme: simple
+theme: white
 transition: slide
 ---
+
 
 <section data-markdown>
 ## Welcome to PHY 481
@@ -21,6 +22,10 @@ Office: 1310-A BPS
 Email: <caballero@pa.msu.edu>
 
 Cell phone: 517-420-5330 (texting is fine)
+
+#### Contacting Ruxin Zhang (TA)
+
+Email: <zhangrux@msu.edu>
 
 
 </section>
