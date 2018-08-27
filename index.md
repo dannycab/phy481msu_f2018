@@ -17,7 +17,7 @@ use_math: true
 -   Web page: [dannycab.github.io/phy481msu_f2018/](http://dannycab.github.io/phy481msu_f2018/)
 -   Class Meetings: MWF 12:40 PM - 1:30 PM (1415 BPS)
 -   Office hrs: Open door policy. I enjoy visiting and talking with you about physics. Please message me to make sure I'm in and available.
--   TA/Grader: TBD
+-   TA/Grader: Ruxin Zhang <zhangrux@msu.edu>
 
 ### Course communication
 
