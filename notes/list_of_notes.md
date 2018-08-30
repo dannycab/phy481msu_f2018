@@ -12,3 +12,4 @@ permalink: notes/index.html
 ### Slides
 
 - Aug 29 Welcome to PHY 481: [[HTML]](./01-slides.html) [[PDF]](./01-slides.pdf)
+- Aug 31 Reminder of Vectors and Vector Operations: [[HTML]](./02-slides.html) [[PDF]](./02-slides.pdf)
