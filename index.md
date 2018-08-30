@@ -155,6 +155,9 @@ average of your other exams. You may bring one side of a single sheet of
 8.5 in. x 11 in. paper for each exam, with your own handwritten notes.
 Calculators with scientific notation are allowed and sometimes needed.
 
+- Exam 1 Wed. Oct. 3 (7-9pm) in BCH 101 (Biochem is just next to BPS)
+- Exam 2 Wed. Nov. 7 (7-9pm) in BPS 1415 (our classroom)
+
 ### What we cover, and why:
 
 Physics 481 covers topics in electricity and magnetism (E&M). It is the
