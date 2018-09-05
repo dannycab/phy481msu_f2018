@@ -4,6 +4,24 @@ theme: white
 transition: slide
 ---
 
+
+<section data-markdown>
+
+What is the divergence in the boxed region?
+
+<img src ="./images/pt_charge_red_box.png" align="right" style="width: 400px";/>
+
+1. Zero
+2. Not zero
+3. ???
+
+Note:
+* CORRECT ANSWER: A
+* Lines in; lines out - harder to see dE/dx and dE/dy
+* One of those curious ones where the 2D picture might get in the way; think 3D
+
+</section>
+
 <section data-markdown>
 Consider a vector field defined as the gradient of some well-behaved scalar function:
 $$\mathbf{v}(x,y,z) = \nabla T(x,y,z).$$
@@ -27,7 +45,7 @@ Note:
 
 * Homework 1 solutions posted immediately after class
 * Graded Homework 1 returned next Friday
-* Homework 2 posted (due next Wednesday)
+* Homework 2 posted (due next Friday)
 
 </section>
 
@@ -38,16 +56,7 @@ Note:
 <section data-markdown>
 ## Register your clicker!
 
-- Agrawal, Prakash
-- Bloomfield, Brandon
-- Campbell, Megan
-- Everett, Nathan
-- Klebba, Jared
-- Prince, Alex
-- Spencer, Spence
-- Verleye, Erick
-- Wu, Madeleine
-- Xu, Fu
+
 </section>
 
 <section data-markdown>
