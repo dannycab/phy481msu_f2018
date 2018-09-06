@@ -1,18 +1,18 @@
 ---
 layout: homework
 use_math: true
-title: Homework 2 (Due September 13th)
+title: Homework 2 (Due September 14th)
 ---
 
 Homework 2 emphasizes the electric field and the principle of superposition that will form the basis of much of your understanding of electrostatics. This homework makes use of what you learned from Secs. 1.1-1.4 in Griffiths and adds to it the concepts from Sec. 2.1, which make up the bulk of the assignment. In addition, we have begun to introduce the idea of finding approximate formulae using Taylor expansions, which is one of the most common practices of theoretical physics. In this assignment, you will use a Jupyter notebook to numerically integrate a charge distribution and to explore the concept of superposition and visualize the field of a charged rod at any point in space, not just where it is more analytically tractable.
 
-[**Dropbox file request link for Homework 2**](https://www.dropbox.com/request/RW4WloIpvBfo2BuN96hm)
+[**Dropbox file request link for Homework 2**](https://www.dropbox.com/request/sx22K8GAzdADiV4qgOlZ)
 
 #### 1. Finding the angle between two suspended charges
 
 When working through some physics, you will typically find yourself in a situation where a strict analytical solution to your problem evades you because the models that you have used have sophisticated algebraic forms that lead to transcendental equations, non-integrable forms, or other problematic situations. In these situations, it is often instructive to step back a moment and consider under what conditions you want to solve your problem. Those conditions might provide you with reasonable limitations and assumptions that lead to approximate forms that get you very close to what you need. In this problem, which has a familiar context from 184, we will give you the assumption to make. But in future problems, you might have to decide for yourself: *What assumptions and approximations can I make here and why?*
 
-Two charges of identical mass $m$, one with charge $q$ and the other with charge $8q$, hang from strings of length $l$ from a common point. Assume that $q$ is sufficiently small that the electric force on each mass is quite small compared to the gravitational force on each.
+Two charges of identical mass $m$, one with charge $q$ and the other with charge $4q$, hang from strings of length $l$ from a common point. Assume that $q$ is sufficiently small that the electric force on each mass is quite small compared to the gravitational force on each.
 
 1. Find an approximate expression for the angle $\theta$ that each charge makes with respect to the vertical.
 2. Describe how this assumption of the relationship between the forces (i.e., that the electric force is small compared to the gravitational force) played out in your calculation, which quantities were approximated and why?
@@ -23,13 +23,13 @@ Two charges of identical mass $m$, one with charge $q$ and the other with charge
 
 Up till now, most of your experience with integration has likely been integrating functions that have anti-derivatives. While this is kind of integration is problematic when you have data that must be integrated (e.g., using measures of position to determine potential energy), we will focus on functions for which there are no anti-derivatives.
 
-Consider a line of charge that lives on the x-axis. It exists from $x=0$ to $x=3$, and distribution of that charge is given by,
+Consider a line of charge that lives on the x-axis. It exists from $x=-5$ to $x=5$, and distribution of that charge is given by the Gaussian,
 
-$$\lambda(x) = 0.5e^{-x^2}.$$
+$$\lambda(x) = 2e^{-x^2}.$$
 
 In this problem, you will work through this Jupyter notebook to determine the total charge one this line by performing the integral,
 
-$$Q = \int_0^3 0.5e^{-x^2} dx.$$
+$$Q = \int_{-5}^5 0.5e^{-x^2} dx.$$
 
 You can [download the notebook](../jupyter/HW2-AnOddChargeDistribution.ipynb) (or [view it here](https://github.com/dannycab/phy481msu_f2017/blob/master/jupyter/HW2-AnOddChargeDistribution.ipynb)). As you work through this problem, you will work through the following activities:
 
@@ -49,13 +49,15 @@ In working through the first 3 questions, some scaffolded code has been provided
 
 The concept of superposition is critically important to the study of electrodynamics and, for us, it will be a hugely useful in the arguments we make in electrostatics. Superposition has been called (by Danny, of course) [the crux of the biscuit](https://www.youtube.com/playlist?list=PL8WvZFiJpAr3cZlCr0Gag8BV3-mGdcUBM). For this problem, before working out the math in detail, think about how superposition helps you reason through the problem.
 
-1. Let's place 6 equal charges $q$ at the vertices of a hexagon (edge length, $l$). What is the net force on a test charge $Q$ placed at the center of the hexagon?
-2. I remove one of the charges -- leaving 5 equal charges at the vertices of the hexagon. What is the net force on the test charge now? Explain your reasoning carefully.
-3. Now, I place 7 equal charges $q$ at the vertices of a heptagon (edge length, $l$) and place the same test charge $Q$ at the center of the heptagon. What is the net force on that test charge?
-4. I remove one of the charges -- leaving 6 equal charges at the vertices of the heptagon. What is the net force on the test charge now? Explain your reasoning carefully.
+1. Let's place 8 equal charges $q$ at the vertices of a octagon (edge length, $l$). What is the net force on a test charge $Q$ placed at the center of the hexagon?
+2. I remove one of the charges -- leaving 7 equal charges at the vertices of the octagon. What is the net force on the test charge now? Explain your reasoning carefully.
+3. Now, I place 9 equal charges $q$ at the vertices of a nonagon (edge length, $l$) and place the same test charge $Q$ at the center of the nonagon. What is the net force on that test charge?
+4. I remove one of the charges -- leaving 8 equal charges at the vertices of the nonagon. What is the net force on the test charge now? Explain your reasoning carefully.
 5. How is the reasoning for questions 2 and 4 similar?
 
 #### 4. Superposition and continuous charge distributions
+
+*For this problem you will need to install the VPython module. [Instructions online](http://vpython.org/presentation2018/install.html)*
 
 Superposition is a very powerful tool that can help quantitatively describe the electric field produced by any arbitrary static distribution of charges. For some problems, it is either incredibly time-consuming to apply superposition analytically to the problem or the problem may not have an analytical solution (i.e., the integral can be constructed but not solved in closed form). In this problem, you will extend your knowledge of superposition to include how we might numerically determine the electric field due to a well-known charge distribution (a rod with a constant linear charge density). *By choosing something familiar like a rod of charge, we hope for you to build intuition about the numerical method we are using.*
 
@@ -87,3 +89,14 @@ Consider a thin disk of radius $R$ with a uniform charge density, $-\sigma$.
 2. If you were very far from this disk, what would you expect the field to look like? Use your intuition from PHY 184. Explicitly check the limiting form of your solution at very large $z$ (i.e., when $z >> R$). *By "limiting form", we mean "how it behaves as a function of distance".* So, don't just say "it goes to zero" (if that's what you think happens). Tell us how, functionally it vanishes (like $1/z$? like $e^{-z}$? Something else?).
 3. If you were very close to the disk, what would expect the field too look like? Again, use your intuition from PHY 184. Explicitly check the limiting form of your solution at very small $z$ (i.e., when $z << R$).
 4. Sketch a qualitatively correct graph of the component of the electric field in the $z$-direction along the center line. Be sure to include both the positive and negative $z$-axis in your graph. Your answers to parts 2 and 3 might help you here.
+
+
+#### 6. Checking your answers
+
+**A situation**: You've just spent an hour calculating the magnitude of the electric field of a charged ring of radius $R$ that holds a uniform linear charge density $\lambda$ at a distance $z$ from the center of the ring. You ended up with the result:
+
+$E = \dfrac{1}{4\pi\varepsilon_0}\dfrac{\lambda 2\pi Rz}{(z^2+R^2)^{3/2}}$
+
+1. Check the units of this expression to verify it is correct.
+2. What are at least two other indepdent checks that you could do to see if you believe your result?
+3. Perform those two independent checks. Comment on if you believe this result based on these checks. Why or why not?
