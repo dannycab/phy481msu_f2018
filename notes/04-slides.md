@@ -46,6 +46,8 @@ Note:
 * Homework 1 solutions posted immediately after class
 * Graded Homework 1 returned next Friday
 * Homework 2 posted (due next Friday)
+* WAMPS is organizing GRE study sessions
+  * First session: Wed., Sept. 12 4-5 pm (BPS 1400)
 
 </section>
 
@@ -55,7 +57,57 @@ Note:
 
 <section data-markdown>
 ## Register your clicker!
+- Adams, Joe
+- Allen, Grant
+- Bensley, Justin
+- Bertus, Thomas
+- Boyd, Brendan
+- Briseno, Robert
+- Brook, Evan
+- Byrd, Benjamin
+- Czyzewski, Austin
+- Dara, Jacob
+- Ding, Fang
+- Evasic, Jacob
+- Fowler, David
 
+</section>
+
+<section data-markdown>
+
+## And it cotinues...
+
+- Hindenach, John
+- Jiang, Shan
+- Lewis, Jim
+- Li, Xingyu
+- Li, Zihan
+- Maestrales, Sarah
+- Myers, Cody
+- Osella, Anna
+- Patel, Shivang
+- Smith, Dylan
+- Wallace, Ian
+- Ward, Jenny
+
+</section>
+
+<section data-markdown>
+## And yet, we are not done...
+
+- Wicklund, Courtney
+- Wilks, Gavin
+- Williams, Brandon
+- Xu, Fu
+- Zuzelski, Joel
+
+</section>
+
+<section data-markdown>
+## Now we are done.
+
+Register clicker here:
+[https://goo.gl/nrebCr](https://goo.gl/nrebCr)
 
 </section>
 
@@ -120,6 +172,8 @@ What is the approximate integral, $I(a,b) = \int_a^b f(x) dx$, $I(a,b) \approx$
 4. None of these is correct.
 4. More than one is correct.
 
+Note:
+* Correct Answer: D (both A and C)
 
 </section>
 
