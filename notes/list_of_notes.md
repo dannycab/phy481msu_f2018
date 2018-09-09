@@ -17,3 +17,4 @@ permalink: notes/index.html
 - Aug 31 Reminder of Vectors and Vector Operations: [[HTML]](./02-slides.html) [[PDF]](./02-slides.pdf)
 - Sept 5 Reminder of Vector Calculus: [[HTML]](./03-slides.html) [[PDF]](./03-slides.pdf)
 - Sept 7 One-Dimensional Numerical Integrals [[HTML]](./04-slides.html) [[PDF]](./04-slides.pdf)
+- Sept 10 Introduction to Electrostatics [[HTML]](./05-slides.html) [[PDF]](./05-slides.pdf)

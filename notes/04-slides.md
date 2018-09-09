@@ -188,22 +188,3 @@ The trapezoidal rule takes into account the value and slope of the function. The
 5. Something else entirely
 
 </section>
-
-<section data-markdown>
-
-<img src="./images/hung_spheres.png" align="left" style="width: 300px";/>
-
-Two small spheres (mass, $m$) are attached to insulating strings (length, $L$) and hung from the ceiling as shown.
-
-How does the angle (with respect ot the vertical) that the string attached to the $-q$ charge ($\theta_1$) compare to that of the $-2q$ charge ($\theta_2$)?
-
-1. $\theta_1 > \theta_2$
-2. $\theta_1 = \theta_2$
-3. $\theta_1 > \theta_2$
-4. ????
-
-Note:
-CORRECT ANSWER: B
-Draw the FBD, Newton 3 is important here.
-
-</section>

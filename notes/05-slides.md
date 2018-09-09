@@ -3,20 +3,26 @@ layout: slide
 theme: white
 transition: slide
 ---
+
 <section data-markdown>
 
-5 charges, q, are arranged in a regular pentagon, as shown.
-What is the E field at the center?
+<img src="./images/hung_spheres.png" align="left" style="width: 300px";/>
 
-<img src ="./images/5charges.png" align="center" style="width: 250px";/>
+Two small spheres (mass, $m$) are attached to insulating strings (length, $L$) and hung from the ceiling as shown.
 
-1. Zero
-2. Non-zero
-3. Really need trig and a calculator to decide
+How does the angle (with respect ot the vertical) that the string attached to the $-q$ charge ($\theta_1$) compare to that of the $-2q$ charge ($\theta_2$)?
+
+1. $\theta_1 > \theta_2$
+2. $\theta_1 = \theta_2$
+3. $\theta_1 > \theta_2$
+4. ????
 
 Note:
-CORRECT ANSWER: A
+CORRECT ANSWER: B
+Draw the FBD, Newton 3 is important here.
+
 </section>
+
 
 <section data-markdown>
 # MORE SHAMING
@@ -25,12 +31,7 @@ CORRECT ANSWER: A
 <section data-markdown>
 
 ## Register your clicker
-* Bloomfield, Brandon
-* Everett, Nathan
-* Klebba, Jared
-* Verleye, Erick
-* Wu, Madeleine
-* Xu, Fu
+* 
 </section>
 
 <section data-markdown>
@@ -53,6 +54,20 @@ Note: As far we know, the theory of Classical E&M works for 24 orders of magnitu
 <img src="./images/efieldwiki.png" align="center";/>
 </section>
 
+<section data-markdown>
+
+5 charges, q, are arranged in a regular pentagon, as shown.
+What is the E field at the center?
+
+<img src ="./images/5charges.png" align="center" style="width: 250px";/>
+
+1. Zero
+2. Non-zero
+3. Really need trig and a calculator to decide
+
+Note:
+CORRECT ANSWER: A
+</section>
 
 <section data-markdown>
 
