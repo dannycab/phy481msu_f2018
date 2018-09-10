@@ -31,7 +31,30 @@ Draw the FBD, Newton 3 is important here.
 <section data-markdown>
 
 ## Register your clicker
-* 
+
+* Allen, Grant
+* Bertus, Thomas
+* Byrd, Benjamin
+* Dara, Jacob
+* Ding, Fang
+* Evasic, Jacob
+* Fowler, David
+
+</section>
+
+<section data-markdown>
+
+## Register your clicker
+
+* Hindenach, John
+* Lewis, Jim
+* Li, Zihan
+* Myers, Cody
+* Wallace, Ian
+* Ward, Jenny
+* Wicklund, Courtney
+* Xu, Fu
+
 </section>
 
 <section data-markdown>
