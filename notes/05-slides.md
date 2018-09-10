@@ -14,7 +14,7 @@ How does the angle (with respect ot the vertical) that the string attached to th
 
 1. $\theta_1 > \theta_2$
 2. $\theta_1 = \theta_2$
-3. $\theta_1 > \theta_2$
+3. $\theta_1 < \theta_2$
 4. ????
 
 Note:
