@@ -46,7 +46,6 @@ Draw the FBD, Newton 3 is important here.
 
 ## Register your clicker
 
-* Hindenach, John
 * Lewis, Jim
 * Li, Zihan
 * Myers, Cody
