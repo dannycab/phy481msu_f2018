@@ -29,7 +29,7 @@ $$\lambda(x) = 2e^{-x^2}.$$
 
 In this problem, you will work through this Jupyter notebook to determine the total charge one this line by performing the integral,
 
-$$Q = \int_{-5}^5 0.5e^{-x^2} dx.$$
+$$Q = \int_{-5}^5 2e^{-x^2} dx.$$
 
 You can [download the notebook](../jupyter/HW2-AnOddChargeDistribution.ipynb) (or [view it here](https://github.com/dannycab/phy481msu_f2018/blob/master/jupyter/HW2-AnOddChargeDistribution.ipynb)). As you work through this problem, you will work through the following activities:
 
