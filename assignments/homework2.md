@@ -23,13 +23,13 @@ Two charges of identical mass $m$, one with charge $q$ and the other with charge
 
 Up till now, most of your experience with integration has likely been integrating functions that have anti-derivatives. While this is kind of integration is problematic when you have data that must be integrated (e.g., using measures of position to determine potential energy), we will focus on functions for which there are no anti-derivatives.
 
-Consider a line of charge that lives on the x-axis. It exists from $x=0$ to $x=5$, and distribution of that charge is given by the Gaussian,
+Consider a line of charge that lives on the x-axis. It exists from $x=0$ to $x=3$, and distribution of that charge is given by the Gaussian,
 
 $$\lambda(x) = 2e^{-x^2}.$$
 
 In this problem, you will work through this Jupyter notebook to determine the total charge one this line by performing the integral,
 
-$$Q = \int_{0}^5 2e^{-x^2} dx.$$
+$$Q = \int_{0}^3 2e^{-x^2} dx.$$
 
 You can [download the notebook](../jupyter/HW2-AnOddChargeDistribution.ipynb) (or [view it here](https://github.com/dannycab/phy481msu_f2018/blob/master/jupyter/HW2-AnOddChargeDistribution.ipynb)). As you work through this problem, you will work through the following activities:
 
