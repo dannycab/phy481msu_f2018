@@ -22,31 +22,9 @@ CORRECT ANSWER: D (A and B)
 </section>
 
 <section data-markdown>
-I spent ... hours on the second homework.
-
-1. 1-2
-2. 3-4
-3. 5-6
-4. 7-8
-5. More than 9
-</section>
-
-<section data-markdown>
-I felt ... doing the Python part of the homework.
-
-1. relatively comfortable
-2. comfortable enough
-3. kind of uncomfortable
-4. really uncomfortable
-5. I didn't do it
-</section>
-
-<section data-markdown>
 
 ## Announcements
 
-* Will start "counting" clickers next Monday
-  - Register your clicker!
 * If you need help with Python, let me know ASAP!
 * Honors Option
   - Talk to me about your ideas
@@ -61,10 +39,60 @@ I felt ... doing the Python part of the homework.
 Taylor Series?
 
 1. I remember those and am comfortable with them.
-2. I rememeber them, but it might take a little while to get comfrtable.
+2. I remember them, but it might take a little while to get comfortable.
 3. I've definitely worked with them before, but I don't recall them.
 4. I have never seen them.
 
+</section>
+
+<section data-markdown>
+
+$$E_x = \dfrac{\lambda}{4\pi\varepsilon_0\}\dfrac{L}{x\sqrt{x^2+L^2}}$$
+
+
+If we are *far from the rod*, what is the small parameter in our Taylor expansion?
+
+1. $x$
+2. $L$
+3. $x/L$
+4. $L/x$
+5. More than one of these
+
+Note: Correct answer is D, but this is about a discussion about dimensionless parameters - small compared to what!
+</section>
+
+
+<section data-markdown>
+
+$$E_x = \dfrac{\lambda}{4\pi\varepsilon_0\}\dfrac{L}{x\sqrt{x^2+L^2}}$$
+
+
+If we are *very close* to the rod, what is the small parameter in our Taylor expansion?
+
+1. $x$
+2. $L$
+3. $x/L$
+4. $L/x$
+5. More than one of these
+
+Note: Correct answer is C, but this is about a discussion about dimensionless parameters - small compared to what!
+</section>
+
+<section data-markdown>
+
+The model we developed for the motion of the charged particle near the charged disk (on the center axis) is represented by this *nonlinear* differential equation:
+
+$$\ddot{x} = C \left[1- \dfrac{1}{(x^2+R^2)^{1/2}}\right]$$
+
+You decide to expand this expression for small parameter is $x/R$, under what conditions is any solution appropriate?
+
+1. When the disk is very large
+2. When the disk is very small
+3. When the particle is far from the disk
+4. When the particle is near the disk
+5. More than one of these
+
+Note: Correct answer is E; it's that you are both close compared to the size of the disk (A and D)
 </section>
 
 <section data-markdown>
