@@ -49,7 +49,7 @@ In working through the first 3 questions, some scaffolded code has been provided
 
 The concept of superposition is critically important to the study of electrodynamics and, for us, it will be a hugely useful in the arguments we make in electrostatics. Superposition has been called (by Danny, of course) [the crux of the biscuit](https://www.youtube.com/playlist?list=PL8WvZFiJpAr3cZlCr0Gag8BV3-mGdcUBM). For this problem, before working out the math in detail, think about how superposition helps you reason through the problem.
 
-1. Let's place 8 equal charges $q$ at the vertices of a octagon (edge length, $l$). What is the net force on a test charge $Q$ placed at the center of the hexagon?
+1. Let's place 8 equal charges $q$ at the vertices of a octagon (edge length, $l$). What is the net force on a test charge $Q$ placed at the center of the octagon?
 2. I remove one of the charges -- leaving 7 equal charges at the vertices of the octagon. What is the net force on the test charge now? Explain your reasoning carefully.
 3. Now, I place 9 equal charges $q$ at the vertices of a nonagon (edge length, $l$) and place the same test charge $Q$ at the center of the nonagon. What is the net force on that test charge?
 4. I remove one of the charges -- leaving 8 equal charges at the vertices of the nonagon. What is the net force on the test charge now? Explain your reasoning carefully.
