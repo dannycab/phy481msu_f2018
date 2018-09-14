@@ -5,6 +5,51 @@ transition: slide
 ---
 
 <section data-markdown>
+
+Which of the following are vectors?
+
+(I) Electric field, (II) Electric flux, and/or (III) Electric charge
+
+1. I only
+2. I and II only
+3. I and III only
+4. II and III only
+5. I, II, and II
+
+Note:
+* CORRECT ANSWER: A
+
+</section>
+
+<section data-markdown>
+
+Given the location of the little bit of charge ($dq$), what is $|\vec{\mathfrak{R}}|$?
+
+<img src ="./images/sphereintegrate.png" align="left" style="width: 300px";/>
+
+
+1. $\sqrt{z^2+r'^2}$
+2. $\sqrt{z^2+r'^2-2zr'\cos\theta}$
+3. $\sqrt{z^2+r'^2+2zr'\cos\theta}$
+4. Something else
+
+Note:
+CORRECT ANSWER: B
+
+
+</section>
+
+<section data-markdown>
+
+## Gauss' Law
+
+<img src="./images/gauss_pt_charge.png" align="center" style="width: 350px";/>
+
+$$\oint_S \mathbf{E}\cdot d\mathbf{A} = \int_V \dfrac{\rho}{\varepsilon_0}d\tau$$
+
+</section>
+
+<section data-markdown>
 <img src="./images/cubical_box.png" align="right" style="width: 350px";/>
 
 The space in and around a cubical box (edge length $L$) is filled with a constant uniform electric field, $\mathbf{E} = E_0 \hat{y}$. What is the TOTAL electric flux $\oint_S \mathbf{E} \cdot d\mathbf{A}$ through this closed surface?
@@ -18,17 +63,6 @@ The space in and around a cubical box (edge length $L$) is filled with a constan
 Note:
 * CORRECT ANSWER: A
 * All the incoming flux on the left side comes out the right side
-
-</section>
-
-<section data-markdown>
-
-## Announcements
-
-* Starting to 'grade' clickers on Monday!
-* GRE Prep (SPS and WAMPS)
-  - [Information on PA webpage](https://www.pa.msu.edu/academics/undergraduate-program/graduate-school-preparation/)
-  - First meeting: Wednesday 5-6pm in 1300 BPS
 
 </section>
 
