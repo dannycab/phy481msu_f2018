@@ -1,12 +1,12 @@
 ---
 layout: homework
 use_math: true
-title: Homework 3 (Due September 20th)
+title: Homework 3 (Due September 21st)
 ---
 
 Homework 3 emphasizes alternative methods to direct integration (Coulomb's Law) for solving the electric field problem including the use of Gauss' Law and reducing the vector problem to a scalar one by using electric potential. In addition, it introduces the concept of the Dirac delta function as a tool for describing distributions of charge. This homework makes use of what you learned in Secs. 1.5, 2.2, and 2.3 (up to about 2.3.2), but what you know from 2.1 (i.e., superposition of ($\mathbf{E}$) will also be important).
 
-[**Dropbox file request link for Homework 3**](https://www.dropbox.com/request/FdGfKEEGedC4gRtnBHUI)
+[**Dropbox file request link for Homework 3**](https://www.dropbox.com/request/H4yWIqFU0lmnFpsZJwSq)
 
 #### 1. Ring of charge - Motion of a test charge
 
@@ -25,7 +25,7 @@ $$E_x = \dfrac{1}{4\pi\varepsilon_0}\dfrac{Qx}{\left(x^2+a^2\right)^{3/2}}$$
 3. Consider the situation where the particle is very close to a large ring (i.e., where $x/a\;<<\;1$). Determine the approximate form of the differential equation for this case -- keep only terms that depend linearly on $x$. This is called "linearizing" the differential equation and makes the solution analytically tractable.
 4. Solve the differential equation for the case where the particle starts from rest at a distance of $x_0$ from the ring. Sketch the resulting motion of the test charge as a function of time. Does your graph agree with your intuition about the motion?
 5. What would happen to the test charge if it was not placed precisely on the central axis? Why?
-6. We have created a Jupyter notebook that begins to model the motion of the test charge using both the exact and the approximate differential equation. You can [download it here](../jupyter/HW3-MotionOfTestCharge.ipynb) (or [view it here](https://github.com/dannycab/phy481msu_f2017/blob/master/jupyter/HW3-MotionOfTestCharge.ipynb)). By working through this notebook, we expect you to complete the model and be able to explain the output of each model and its assumptions. We also ask that you determine under what conditions the approximate model is a good one and explain how you know.
+6. We have created a Jupyter notebook that begins to model the motion of the test charge using both the exact and the approximate differential equation. You can [download it here](../jupyter/HW3-MotionOfTestCharge.ipynb) (or [view it here](https://github.com/dannycab/phy481msu_f2018/blob/master/jupyter/HW3-MotionOfTestCharge.ipynb)). By working through this notebook, we expect you to complete the model and be able to explain the output of each model and its assumptions. We also ask that you determine under what conditions the approximate model is a good one and explain how you know.
 7. **BONUS:** Break up the ring into small chunks, so that you can determine the electric field at any point. Model the motion of the charged particle **in general** in the presence of this charged ring. Can you get any interesting or cool trajectories? How would you plot this in 3D? *This BONUS is worth 15 points (about one full problem).*
 
 
@@ -61,22 +61,7 @@ For parts 1 and 2, consider a sphere of radius $R$, centered one the origin, wit
 
 ![GRE Problem](./images/hw3/gre_problem.png "GRE Problem")
 
-#### 5. Overlapping clouds of charge
-
-<div class="alert alert-danger" role="alert">HEY! No need to solve problem 5 this week! The material surrounding problem 5 will be covered in class on Wednesday. This problem will be due as the first homework problem for Homework 4. If you have already solved it, please save the solution for Homework 4.</div>
-
-When solving some E&M problems, you will need to develop your argument (i.e., you solution) using an arbitrary location. In this problem, consider how choosing an arbitrary point in the overlapping region of the charge clouds will help you derive the result.
-
-![Overlapping Clouds](./images/hw3/overlapping_clouds.png "Overlapping Clouds")
-
-
-1. For a cloud of charge (radius, $R$) with uniform charge density ($\rho_0$), determine the electric field inside and outside the cloud.
-2. Graph the electric field as a function of distance from the center of the cloud. [Download this Jupyter notebook](../jupyter/HW3-LinePlotting.ipynb) to create this plot (you can [view it here](https://github.com/dannycab/phy481msu_f2017/blob/master/jupyter/HW3-LinePlotting.ipynb)). *You will have to choose values for $\rho_0$ and $R$ to make your graph.*
-3. Consider two oppositely charged clouds (radii, $R$), both with uniform charge densities. They overlap like shown in the figure with their centers separated by $d$. Find the electric field in the overlapping region. (*Hint: consider how Gauss' Law and superposition can help here.*)
-4. In this overlapping region, sketch the electric field lines.
-5. In the limit that $d$ becomes very small compared to $R$, discuss in words and make a sketch of what the resulting (total, physical) charge distribution in space really looks like (so that later in the course when we encounter such a charge distribution, we will know where it came from and what the electric field looks like inside!)
-
-#### 6. Cube with a hole
+#### 5. Cube with a hole
 
 What happens when you have problems were the symmetries are mixed? How do you tackle a problem with two different geometries? In this problem, you will explore how to deal with situations where they are two "competing" geometries for the problem. Sometimes you will need to bring two (or more!) aspects of your theoretical toolbox to bear on a problem.
 
@@ -88,7 +73,7 @@ Consider a cube (edge length $a$) with a uniform charge distributed throughout i
 2. Let the center of the cube (and thus the center of the cavity) be located at the origin $\langle 0,0,0 \rangle$. **Explain** how you would determine the electric field at point $P$ a distance $z$ from the center of the cube.
 3. What should your expression for the electric field be as $d$ goes to zero? What does this correspond to physically?
 
-#### 7. Describing charge distributions with delta functions
+#### 6. Describing charge distributions with delta functions
 
 The [Dirac delta function](https://en.wikipedia.org/wiki/Dirac_delta_function) is an important theoretical tool for describing distributions of a variety of physical quantities (e.g., mass, charge) where a point object (or system of point objects) is the model we intend to use. In addition, it can be used to describe distributions where these quantities exist in highly constrained spaces (e.g., on a plane or spherical shell). In this class, we will use the Dirac delta function to describe how a charges are distributed. In this problem, you will get familiar with the Dirac delta function for a set point charges on a line.
 
@@ -98,3 +83,15 @@ $$\lambda(x) = \sum_{n=0}^{10} q_0 n^2\delta\left(x-\dfrac{n}{10}\right)$$
 
 1. Write a sentence or two describing the units of each term in the equation. (Don't forget the delta function!)
 2. What is the total charge on $x$-axis?
+
+#### 7. A rod with a hole drilled in it
+
+Gauss' Law can be useful in situations where you want to determine the electric field in conceptually different physical spaces. In this problem, you will explore this using the example of a uniformly charged rod with a hole drilled through it.
+
+Consider a rod of length $L$ and radius $b$ that has a hole drilled down the center of it (along it's length-wise axis) with a radius of $a$. The rod is very long compared to it's radius, so that Gauss' Law can be used to find the approximate electric field near the middle of the rod (far from the ends). The rod has a uniform charge distribution $\rho$. You will determine the electric field "everywhere" - meaning everywhere near the middle of the rod.
+
+1. Find the electric field inside the hole ($r<a$).
+2. Find the electric field outside the rod ($r>b$).
+3. Find the electric field between the hole and outer surface of the rod ($a<r<b$).
+4. Why did you need to solve Gauss' Law 3 times in this case to find the electric field "everywhere"?
+5. Compare the value of the electric field right at the material boundaries ($r=a$ and $r=b$), do the values match? As we will find this matching has important implications for bound charge on material surfaces.
