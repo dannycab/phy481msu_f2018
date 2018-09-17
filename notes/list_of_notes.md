@@ -21,6 +21,7 @@ permalink: notes/index.html
 - Sept 10 Introduction to Electrostatics: [[HTML]](./05-slides.html) [[PDF]](./05-slides.pdf)
 - Sept 12 Coulomb's Law and Taylor Series: [[HTML]](./06-slides.html) [[PDF]](./06-slides.pdf)
 - Sept 14 Gauss' Law [[HTML]](./07-slides.html) [[PDF]](./07-slides.pdf)
+- Sept 16 Dirac Delta Functions [[HTML]](./08-slides.html) [[PDF]](./08-slides.pdf)
 
 ### Computational Demos
 

@@ -144,23 +144,3 @@ Note:
 * One of those curious ones where the 2D picture might get in the way; think 3D
 
 </section>
-
-<section data-markdown>
-
-**Activity:** For a the electric field of a point charge, $\mathbf{E}(\mathbf{r}) = \dfrac{1}{4\pi\varepsilon_0}\dfrac{q}{r^2}\hat{r}$, compute $\nabla \cdot \mathbf{E}$.
-
-*Hint: The front fly leaf of Griffiths suggests that the we take:*
-$$\dfrac{1}{r^2}\dfrac{\partial}{\partial r}\left(r^2 E_r\right)$$
-
-Note:
-* You get zero! Motivates delta function
-
-</section>
-
-<section data-markdown>
-
-Remember this?
-
-<img src ="./images/pt_charge_red_box.png" align="center" style="width: 400px";/>
-
-</section>
