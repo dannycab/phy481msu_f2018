@@ -4,6 +4,8 @@ use_math: true
 title: Homework 4 (Due September 28th)
 ---
 
+[Link to Slack team](http://phy481msuf2018.slack.com)
+
 Homework 4 emphasizes another alternative method to direct integration for solving the electric field problem by reducing the vector problem to a scalar one by using electric potential. In addition, it introduces the electric potential energy concept. This homework emphasizes 2.3 and 2.4, but Sec. 2.2 (Gauss’ Law) continues to be very important.
 
 [**Dropbox file request link for Homework 4**](https://www.dropbox.com/request/A3rsj9EdYWvndBI3JB55)

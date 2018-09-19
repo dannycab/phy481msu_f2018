@@ -23,6 +23,8 @@ use_math: true
 
 We will be using [Slack](http://slack.com/) for course communication this semester. Slack is a combination bullentin board, instant messaging, and file sharing system. It works with your computer as an app or in browser, and on your mobile device. You should have all received invitations to join our class Slack team: [PHY 481 MSU F2018](http://phy481msuf2018.slack.com). I will post course notes, solutions, and other announcements through our Slack team, so you will want to join it. Also, please enjoy the [giphy](https://giphy.com/) integration.
 
+[Link to Slack team](http://phy481msuf2018.slack.com)
+
 ### Help Sessions
 
 We will hold weekly homework help sessions twice per week. These sessions are scheduled on:

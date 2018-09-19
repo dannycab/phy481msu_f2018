@@ -4,6 +4,8 @@ use_math: true
 title: Homework 3 (Due September 21st)
 ---
 
+[Link to Slack team](http://phy481msuf2018.slack.com)
+
 Homework 3 emphasizes alternative methods to direct integration (Coulomb's Law) for solving the electric field problem including the use of Gauss' Law and reducing the vector problem to a scalar one by using electric potential. In addition, it introduces the concept of the Dirac delta function as a tool for describing distributions of charge. This homework makes use of what you learned in Secs. 1.5, 2.2, and 2.3 (up to about 2.3.2), but what you know from 2.1 (i.e., superposition of ($\mathbf{E}$) will also be important).
 
 [**Dropbox file request link for Homework 3**](https://www.dropbox.com/request/H4yWIqFU0lmnFpsZJwSq)

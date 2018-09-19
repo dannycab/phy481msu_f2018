@@ -4,6 +4,9 @@ use_math: true
 title: Homework 1 (Due September 7th)
 ---
 
+[Link to Slack team](http://phy481msuf2018.slack.com)
+
+
 ### Preface
 Homework in this class is a very large part of the learning experience (and a large fraction of your grade!). The homework might look long, but that is because it not really serving as a check on whether you are getting things from lecture. It meant to help you learn the material, the importance of different aspects of the material, and the implications of the material on your future work. So there will typically be longer descriptions in the problem statements. The work you are being asked to do is no longer than a standard lecture course, but the kinds of questions might be different. We strongly encourage you to work together (and with the TA and Danny) on these homework problems, but you must turn in your own work.
 
