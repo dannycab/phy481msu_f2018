@@ -1,12 +1,12 @@
 ---
 layout: homework
 use_math: true
-title: Homework 4 (Due September 27th)
+title: Homework 4 (Due September 28th)
 ---
 
 Homework 4 emphasizes another alternative method to direct integration for solving the electric field problem by reducing the vector problem to a scalar one by using electric potential. In addition, it introduces the electric potential energy concept. This homework emphasizes 2.3 and 2.4, but Sec. 2.2 (Gauss’ Law) continues to be very important.
 
-[**Dropbox file request link for Homework 4**](https://www.dropbox.com/request/g5McF17qICtb6TdR3TKL)
+[**Dropbox file request link for Homework 4**](https://www.dropbox.com/request/A3rsj9EdYWvndBI3JB55)
 
 #### 1. Overlapping clouds of charge
 
@@ -16,7 +16,7 @@ When solving some E&M problems, you will need to develop your argument (i.e., yo
 
 
 1. For a cloud of charge (radius, $R$) with uniform charge density ($\rho_0$), determine the electric field inside and outside the cloud.
-2. Graph the electric field as a function of distance from the center of the cloud. [Download this Jupyter notebook](../jupyter/HW3-LinePlotting.ipynb) to create this plot (you can [view it here](https://github.com/dannycab/phy481msu_f2017/blob/master/jupyter/HW3-LinePlotting.ipynb)). *You will have to choose values for $\rho_0$ and $R$ to make your graph.*
+2. Graph the electric field as a function of distance from the center of the cloud. [Download this Jupyter notebook](../jupyter/HW4-LinePlotting.ipynb) to create this plot (you can [view it here](https://github.com/dannycab/phy481msu_f2018/blob/master/jupyter/HW4-LinePlotting.ipynb)). *You will have to choose values for $\rho_0$ and $R$ to make your graph.*
 3. Consider two oppositely charged clouds (radii, $R$), both with uniform charge densities. They overlap like shown in the figure with their centers separated by $d$. Find the electric field in the overlapping region. (*Hint: consider how Gauss' Law and superposition can help here.*)
 4. In this overlapping region, sketch the electric field lines.
 5. In the limit that $d$ becomes very small compared to $R$, discuss in words and make a sketch of what the resulting (total, physical) charge distribution in space really looks like (so that later in the course when we encounter such a charge distribution, we will know where it came from and what the electric field looks like inside!)
@@ -73,7 +73,7 @@ Imagine a small square (side $a$) with four point charges $+q$, one on each corn
 
 We have found a number of ways of relating $\rho$, $\mathbf{E}$, and $V$. In this problem, you will use $\rho$ to find $V$ through the method of direct integration (i.e., using the integral expression for $V$).
 
-1. Find a formula for the electrostatic potential $V(z)$ everywhere along the symmetry-axis of a charged ring (radius $a$, centered on the $z$-axis, with uniform linear charge density $\lambda$ around the ring).  Please use the method of direct integration to do this, and set your reference point to be $V(\infty)=0$.
+1. Find a formula for the electrostatic potential $V(z)$ everywhere along the symmetry-axis of a charged disk (radius $a$, centered on the $z$-axis, with uniform surface charge density $+\sigma$ around the ring).  Please use the method of direct integration to do this, and set your reference point to be $V(\infty)=0$.
 2. Sketch $V(z)$, how does $V(z)$ behave as $z \rightarrow \infty$? (Don't just say it goes to zero. How does it go to zero?) Does your answer make physical sense to you? Explain briefly.
 3. Use your result from part 1 for $V(0,0,z)$ to find $z$-component of the electric field anywhere along the $z$-axis?
 4. What is the voltage at the origin? What is the electric field at the origin? Do these results from $V$ and $\mathbf{E}$ at the origin make physical sense to you, and are they consistent with each other? Briefly explain.
