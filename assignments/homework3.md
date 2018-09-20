@@ -38,6 +38,13 @@ In this class, you will learn a mathematical technique (Gauss' Law) that makes s
 1. Find the electric field a distance $z$ above the center of a spherical shell  of radius $R$, which carries a uniform surface charge density $\sigma$. Do this by explicit integration (i.e., starting from Griffith's equation 2.7), please. Just treat the case of $z > R$ (*outside* the sphere). Express your answer in terms of the total charge $q$ on the sphere. *Also, be careful, when you get a square root, to take the positive root:* $\sqrt{R^2 + z^2 - 2Rz}=(R-z)$ if $R>z$, but it's $(z-R)$ if $R<z$.
 2. Check your answer using a units check and your knowledge from PHY 184. Briefly discuss what the answer should be outside the sphere. What should the answer be inside the sphere and why? *You don't have to solve that problem explicitly.*
 
+<div class="alert alert-info" role="alert">HEY! The following integral might show up.<br>
+
+$\int_0^{\pi} \dfrac{\sin \theta' (z-R\cos\theta')}{(z^2 + R^2 -2zR\cos\theta')^{3/2}}d\theta'$<br>
+You can do it by hand, but if you try to solve it directly with WolframAlpha it will choke. Instead do a u-sub with $u=\cos \theta'$. That should give a simpler form similar to this one (some constants are mising):<br>
+$\int_{-1}^{+1} \dfrac{z-Ru}{(R^2+z^2-2Rzu)^{3/2}}du$.<br>
+WolframAlpha can handle the symbolic form of that integral or you can look it up in a table.</div>
+
 *Historical note: Newton solved part 1 using geometry (no calculus!!) This geometric proof is tricky and still excites debate: see R. Weinstock Am. J. Phys., 52, (1984), p. 883; H. Erlichson, Am. J. Phys. 58, (1990) p. 882. Newton thought calculus should be kept secret, and held up publication of Principia until he could work out these non-calculus proofs. He published calculus much later, about the same time as Leibniz published his calculus.*
 
 #### 3. Comparing Coulomb's Law to Gauss' Law

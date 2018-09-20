@@ -431,7 +431,9 @@
 
         <h1 class="post-title">Homework 3 (Due September 21st)</h1>
           <div >
-    <p>Homework 3 emphasizes alternative methods to direct integration (Coulomb’s Law) for solving the electric field problem including the use of Gauss’ Law and reducing the vector problem to a scalar one by using electric potential. In addition, it introduces the concept of the Dirac delta function as a tool for describing distributions of charge. This homework makes use of what you learned in Secs. 1.5, 2.2, and 2.3 (up to about 2.3.2), but what you know from 2.1 (i.e., superposition of ($\mathbf{E}$) will also be important).</p>
+    <p><a href="http://phy481msuf2018.slack.com">Link to Slack team</a></p>
+
+<p>Homework 3 emphasizes alternative methods to direct integration (Coulomb’s Law) for solving the electric field problem including the use of Gauss’ Law and reducing the vector problem to a scalar one by using electric potential. In addition, it introduces the concept of the Dirac delta function as a tool for describing distributions of charge. This homework makes use of what you learned in Secs. 1.5, 2.2, and 2.3 (up to about 2.3.2), but what you know from 2.1 (i.e., superposition of ($\mathbf{E}$) will also be important).</p>
 
 <p><a href="https://www.dropbox.com/request/H4yWIqFU0lmnFpsZJwSq"><strong>Dropbox file request link for Homework 3</strong></a></p>
 
@@ -465,6 +467,13 @@
   <li>Find the electric field a distance $z$ above the center of a spherical shell  of radius $R$, which carries a uniform surface charge density $\sigma$. Do this by explicit integration (i.e., starting from Griffith’s equation 2.7), please. Just treat the case of $z &gt; R$ (<em>outside</em> the sphere). Express your answer in terms of the total charge $q$ on the sphere. <em>Also, be careful, when you get a square root, to take the positive root:</em> $\sqrt{R^2 + z^2 - 2Rz}=(R-z)$ if $R&gt;z$, but it’s $(z-R)$ if $R&lt;z$.</li>
   <li>Check your answer using a units check and your knowledge from PHY 184. Briefly discuss what the answer should be outside the sphere. What should the answer be inside the sphere and why? <em>You don’t have to solve that problem explicitly.</em></li>
 </ol>
+
+<div class="alert alert-info" role="alert">HEY! The following integral might show up.<br />
+
+$\int_0^{\pi} \dfrac{\sin \theta' (z-R\cos\theta')}{(z^2 + R^2 -2zR\cos\theta')^{3/2}}d\theta'$<br />
+You can do it by hand, but if you try to solve it directly with WolframAlpha it will choke. Instead do a u-sub with $u=\cos \theta'$. That should give a simpler form similar to this one (some constants are mising):<br />
+$\int_{-1}^{+1} \dfrac{z-Ru}{(R^2+z^2-2Rzu)^{3/2}}du$.<br />
+WolframAlpha can handle the symbolic form of that integral or you can look it up in a table.</div>
 
 <p><em>Historical note: Newton solved part 1 using geometry (no calculus!!) This geometric proof is tricky and still excites debate: see R. Weinstock Am. J. Phys., 52, (1984), p. 883; H. Erlichson, Am. J. Phys. 58, (1990) p. 882. Newton thought calculus should be kept secret, and held up publication of Principia until he could work out these non-calculus proofs. He published calculus much later, about the same time as Leibniz published his calculus.</em></p>
 
