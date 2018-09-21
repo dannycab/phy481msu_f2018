@@ -3,6 +3,21 @@ layout: slide
 theme: white
 transition: slide
 ---
+
+<section data-markdown>
+
+Consider a cube of constant charge density centered at the origin.
+
+**True or False**: I can use Gauss' Law to find the electric directly above the center of the cube.
+
+1. True and I can argue how we'd do it.
+2. True. I'm sure we can, but I don't see how to just yet.
+3. False. I'm pretty sure we can't, but I can't say exactly why.
+4. False and I can argue why we can't do it.
+
+</section>
+
+
 <section data-markdown>
 Consider a spherical Gaussian surface. What is the $d\mathbf{A}$ in $\int\int\mathbf{E}\cdot d\mathbf{A}$?
 
@@ -16,38 +31,16 @@ Note:
 * Correct Answer: D
 </section>
 
-<section data-markdown>
-
-*Tutorial follow-up*:
-
-Does the charge $\sigma$ on the beam line affect the particles being accelerated inside it?
-
-1. Yes
-2. No
-3. ???
-
-*Think: Why? Or why not?*
-
-Note:
-* CORRECT ANSWER: B
-* There's no field inside
-</section>
 
 <section data-markdown>
 
-*Tutorial follow-up*:
+Consider an infinite sheet of charge with uniform surface charge density $+\sigma$ lying in the $x-y$ plane. From symmetry arguments, we can argue that $\mathbf{E}(x,y,z)$ can be simplified to:
 
-Could the charge $\sigma$ affect the electronic equipment outside the tunnel?
-
-1. Yes
-2. No
-3. ???
-
-*Think: Why? Or why not?*
-
-Note:
-* CORRECT ANSWER: A
-* Definitely a field outside
+1. $\mathbf{E}(x,y)$; direction undetermined
+2. $E_z(x,y)$
+3. $\mathbf{E}(z)$; direction undetermined
+4. $E_z(z)$
+5. Something else
 
 </section>
 
