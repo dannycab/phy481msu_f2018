@@ -9,7 +9,8 @@ permalink: notes/index.html
 - [01 Mathematical Review](./handwritten/01_Mathematical_Review.pdf)
 - [02 Numerical Integration](./handwritten/02_Numerical_Integration.pdf)
 - [03 Electrostatics and Superposition](./handwritten/03_Electrostatics_and_Superposition.pdf)
-- [04 Gauss's Law](./handwritten/04_Gauss_Law.pdf)
+- [04 Gauss's Law
+- ](./handwritten/04_Gauss_Law.pdf)
 - [05 Electric Potential](./handwritten/05_Electric_Potential.pdf)
 
 ### Slides
@@ -24,6 +25,7 @@ permalink: notes/index.html
 - Sept 17 Dirac Delta Functions [[HTML]](./08-slides.html) [[PDF]](./08-slides.pdf)
 - Sept 19 Gauss's Law 2 [[HTML]](./09-slides.html) [[PDF]](./09-slides.pdf)
 - Sept 21 Gauss's Law 3 and Curl of $\mathbf{E}$ [[HTML]](./10-slides.html) [[PDF]](./10-slides.pdf)
+- Sept 24 Introduction to Electric Potential [[HTML]](./11-slides.html) [[PDF]](./11-slides.pdf)
 
 ### Computational Demos
 
