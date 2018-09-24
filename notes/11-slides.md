@@ -6,6 +6,37 @@ transition: slide
 
 <section data-markdown>
 
+Consider a vector field $\mathbf{F}$. If the curl of that vector field is zero ($\nabla \times \mathbf{F} = 0$), which of the following are true?
+
+I. $\int \nabla \times \mathbf{F} \cdot d\mathbf{A} = 0$<br>
+
+II. $\oint \mathbf{F} \cdot d\mathbf{l} = 0$<br>
+
+III. $\int \mathbf{F} \cdot d\mathbf{l}$ is path independent<br>
+
+IV. $\mathbf{F}$ is a "conservative" vector field<br>
+
+1. Only I
+2. I and II
+3. II and III
+4. I, II, and III
+5. Some other combination
+
+
+</section>
+
+<section data-markdown>
+
+## Announcements
+* Exam 1 next Wednesday
+  - Topics: Charge, Electric field, $\delta$ functions, Electric potential
+  - Sections: Ch 1.1-1.5 and 2.1-2.3
+* More detailed information coming this Wednesday!
+
+</section>
+
+<section data-markdown>
+
 Is the following mathematical operation ok?
 
 $$\nabla \times \left(\dfrac{1}{4\pi\epsilon_0}\int\int\int_V \dfrac{\rho(\mathbf{r}')d\tau'}{\mathfrak{R}^2}\hat{\mathfrak{R}}\right) = $$
@@ -14,20 +45,9 @@ $$
 
 1. Yup. It's just fine and I can say why
 2. I think it's fine, but I'm not sure I know why
-3. No, we can't exchange the curl and integral!
+3. No, we can't exchange the curl and an integral!
 4. I'm not sure.
 
-
-</section>
-
-<section data-markdown>
-
-## Announcements
-* Homework 4 due Wednesday
-* Exam 1 next Wednesday
-  - Topics: Charge, Electric field, $\delta$ functions, Electric potential
-  - Sections: Ch 1.1-1.5 and 2.1-2.3
-* More detailed information coming this Wednesday!
 
 </section>
 
