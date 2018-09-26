@@ -1,10 +1,10 @@
 ---
 layout: homework
 use_math: true
-title: Homework 5 (Due October 4th)
+title: Homework 5 (Due October 5th)
 ---
 
-Homework 5 continues with exploring relationships between electric charge, electric field, electric potential. In addition, it asks you to explore a major conceptual issue with regard to energy. This homework also has a review problem that requests that you write an exam problem and share it with a classmate to solve. You will turn in your problem, the goals associated with it, and the solution that you wrote for it. You will also turn in the solution to your classmates problem and a paragraph about what you struggled with in solving it. To receive full credit, both must be judged to be exam quality (not just factoids and mathematical manipulation!)
+Homework 5 continues with exploring relationships between electric charge, electric field, electric potential. In addition, it asks you to explore a major conceptual issue with regard to energy. This homework is much shorter than the usual homework because of Exam 1.
 
 #### 1. Screened Coulomb Potential
 
@@ -41,13 +41,3 @@ Consider two point charges ($q_1$ and $q_2$) that are brought to be a distance $
 2. Now, construct the integral expression for the total energy associated with the charge configuration using the integral formalism: $\frac{\varepsilon_0}{2} \int E^2 d\tau$. Remember that the electric field in this integral expression is due to the field from both charges: $\mathbf{E} = \mathbf{E}_1 + \mathbf{E}_2$. *Do not try to integrate it.*
 3. Your integral expression can be expanded out to three terms: in principle, you can integrate one of the terms, but not the other two. Which two can't you integrate and why not?
 4. What is the physical significance of the two un-integrable terms? What must the integrable term be?
-
-#### 4. Exam Review
-
-As a result of working this problem, you will have solved a total of 4 new problems (2 short ones and 2 longer ones), which can go a long way to helping you study for the exam. So take this problem seriously. There is a link to our course goals in the menu above. [Go to that page and read it first!](../learning_goals.html) Then,
-
-1. Invent two plausible exam questions: (1) a fairly quick "clicker" like question, and (2) a more computational "homework-like" question. Write them both down, including your own solutions. If the 2nd one takes less than 5 min, how could you have made it more interesting/richer/challenging? If it takes more than 20 min, how could you scaffold/hint/simplify to get at the interesting physics, without making it so tedious/grungy?
-2. Write brief (just a few words!) summaries of each problem, characterizing what content your problems cover (e.g, "Coulomb's law with continuous charge distributions", or "Gauss' law", or "The divergence theorem" or etc). Also, which of the ["course scale learning goals"](../learning_goals.html) do your problems address? Which ["topic scale learning goals"](../learning_goals.html) do your problems address?
-3. Give your problems to another student and obtain another student's problems. Solve the other student's problems and then write about a paragraph about your understanding of the topic as it relates to the problem. Turn in both the other students' problems (include their name), your solutions, and your understanding as it relates to the problems. 
-
-*Optional – feel free to share your sample questions on Piazza, so that other students might benefit from your ideas.*
