@@ -61,19 +61,17 @@ Note: Correct Answer D (needs to have z')
 
 <section data-markdown>
 
-We derived the electric potential outside ($r>R$) the charged shell to be
+We derived the potential for this short rod to be
 
-$$V(r) = \dfrac{1}{4\pi\varepsilon_0}\dfrac{q}{r}$$
+$V(x,z) = \dfrac{\lambda}{4\pi\varepsilon_0}\log\left[\dfrac{L+z+\sqrt{x^2+(L+z)^2}}{L-z+\sqrt{x^2+(L-z)^2}}\right]$
 
-What is it for $r<R$?
+The associated electric field at $\langle x,0,z\rangle$ location can have the following components:
 
-1. Zero
-2. Constant
-3. It changes but I don't know how yet
-4. Something else
-
-Note:
-* Correct Answer: B
+1. only x
+2. only y
+3. only z
+4. x, y, and z
+5. Something else
 
 </section>
 
@@ -92,6 +90,26 @@ What is the electric field *inside* the sphere?
 Note:
 * Correct Answer: A
 </section>
+
+<section data-markdown>
+
+We derived the electric potential outside ($r>R$) the charged shell to be
+
+$$V(r) = \dfrac{1}{4\pi\varepsilon_0}\dfrac{q}{r}$$
+
+What is it for $r<R$?
+
+1. Zero
+2. Constant
+3. It changes but I don't know how yet
+4. Something else
+
+Note:
+* Correct Answer: B
+
+</section>
+
+
 
 <section data-markdown>
 

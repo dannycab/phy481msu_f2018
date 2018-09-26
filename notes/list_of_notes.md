@@ -11,6 +11,9 @@ permalink: notes/index.html
 - [03 Electrostatics and Superposition](./handwritten/03_Electrostatics_and_Superposition.pdf)
 - [04 Gauss's Law](./handwritten/04_Gauss_Law.pdf)
 - [05 Electric Potential](./handwritten/05_Electric_Potential.pdf)
+- [06 Boundary Conditions](./handwritten/06_Boundary_Conditions.pdf)
+- [07 Energy](./handwritten/07_Energy.pdf)
+- [08 Conductors](./handwritten/08_Conductors.pdf)
 
 ### Slides
 
