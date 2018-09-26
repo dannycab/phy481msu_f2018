@@ -25,6 +25,7 @@ permalink: notes/index.html
 - Sept 19 Gauss's Law 2 [[HTML]](./09-slides.html) [[PDF]](./09-slides.pdf)
 - Sept 21 Gauss's Law 3 and Curl of $\mathbf{E}$ [[HTML]](./10-slides.html) [[PDF]](./10-slides.pdf)
 - Sept 24 Introduction to Electric Potential [[HTML]](./11-slides.html) [[PDF]](./11-slides.pdf)
+- Sept 26 Electric Potential and Electric Potential Energy [[HTML]](./12-slides.html) [[PDF]](./12-slides.pdf)
 
 ### Computational Demos
 
