@@ -29,6 +29,19 @@ Note:
 
 <section data-markdown>
 
+Consider slowly moving a positive charge from a location of low electric potential to one of high electric potential. What is the sign of the work done by you ($W_u$)? What is the sign of the work done by electric field ($W_f$)?
+
+1. $W_u < 0$; $W_f > 0$
+2. $W_u < 0$; $W_f < 0$
+3. $W_u > 0$; $W_f > 0$
+4. $W_u > 0$; $W_f < 0$
+
+Note: Correct Answer is D; Draw field
+
+</section>
+
+<section data-markdown>
+
 <img src="./images/three_charges.png" align="right" style="width: 300px";/>
 
 Three identical charges $+q$ sit on an equilateral triangle. What would be the final $KE$ of the top charge if you released it (keeping the other two fixed)?
