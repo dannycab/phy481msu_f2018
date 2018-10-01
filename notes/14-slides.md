@@ -4,6 +4,34 @@ theme: white
 transition: slide
 ---
 
+<section data-markdown>
+
+### Conductors
+
+<img src="./images/electron_sea.gif" align="center" style="width: 700px";/>
+
+
+</section>
+
+<section data-markdown>
+
+### The conductor problem
+
+<img src="./images/metal.png" align="center" style="width: 500px";/>
+
+
+</section>
+
+
+<section data-markdown>
+
+### Announcements
+
+* Test on Wednesday (7-9pm) BCH 101
+  * All Homework solutions posted on Slack
+  * You may bring in one side of a piece of paper with your own notes
+
+</section>
 
 <section data-markdown>
 
@@ -21,18 +49,6 @@ Note:
 * CORRECT ANSWER: D
 * Net electric field inside of a metal in static equilibrium is zero
 * Talk about the net field versus the field due to the charges on the metal.
-
-</section>
-
-<section data-markdown>
-
-### Announcements
-
-* Test on Wednesday (7-9pm)
-  * All Homework solutions posted on Piazza
-  * You may bring in one side of a piece of paper with your own notes
-* Post your review problem by Tuesday at midnight for extra credit
-  - 10 bonus points on HW 5
 
 </section>
 

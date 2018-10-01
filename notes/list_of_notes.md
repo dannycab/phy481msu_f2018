@@ -30,6 +30,7 @@ permalink: notes/index.html
 - Sept 24 Introduction to Electric Potential [[HTML]](./11-slides.html) [[PDF]](./11-slides.pdf)
 - Sept 26 Electric Potential [[HTML]](./12-slides.html) [[PDF]](./12-slides.pdf)
 - Sept 28 Electric Potential Energy [[HTML]](./13-slides.html) [[PDF]](./13-slides.pdf)
+- Oct 1 Conductors [[HTML]](./14-slides.html) [[PDF]](./14-slides.pdf)
 
 ### Computational Demos
 
