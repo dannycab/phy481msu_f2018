@@ -21,6 +21,23 @@ Note: Correct answer is E. It's closer to 10e17 N/C
 
 <section data-markdown>
 
+### Announcements
+
+* Test on Wednesday (7-9pm) BCH 101
+  * All Homework solutions posted on Slack
+  * You may bring in one side of a piece of paper with your own notes
+
+</section>
+
+<section data-markdown>
+
+<img src="./images/cuwip.png" align="center" style="width: 600px";/>
+
+
+</section>
+
+<section data-markdown>
+
 ### Conductors
 
 <img src="./images/electron_sea.gif" align="center" style="width: 700px";/>
@@ -37,16 +54,6 @@ Note: Correct answer is E. It's closer to 10e17 N/C
 
 </section>
 
-
-<section data-markdown>
-
-### Announcements
-
-* Test on Wednesday (7-9pm) BCH 101
-  * All Homework solutions posted on Slack
-  * You may bring in one side of a piece of paper with your own notes
-
-</section>
 
 <section data-markdown>
 
