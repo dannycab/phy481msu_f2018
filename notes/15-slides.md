@@ -6,6 +6,34 @@ transition: slide
 
 <section data-markdown>
 
+We have a large copper plate with uniform surface charge density, $\sigma$.
+Imagine the Gaussian surface drawn below.  Calculate the E-field a small distance $s$ above the conductor surface.
+
+<img src="./images/copper_plate.png" align="left" style="width: 300px";/>
+
+1. $|E| = \frac{\sigma}{\varepsilon_0}$
+2. $|E| = \frac{\sigma}{2\varepsilon_0}$
+3. $|E| = \frac{\sigma}{4\varepsilon_0}$
+4. $|E| = \frac{1}{4\pi\varepsilon_0}\frac{\sigma}{s^2}$
+5. $|E| = 0$
+
+Note:
+* CORRECT ANSWER: A
+* Might have to do derivation and go through details of infinitely thin line charge. Must be +sigma on other side, btw.
+
+</section>
+
+<section data-markdown>
+
+## Announcements
+
+* Exam 1 TONIGHT (7pm-9pm)
+  - 101 BCH
+  - Help session tonight: 5-6:30 (1300 BPS)
+</section>
+
+<section data-markdown>
+
 With $\nabla \times \mathbf{E} = 0$, we know that,
 
 $$\oint \mathbf{E} \cdot d\mathbf{l} = 0$$
@@ -20,35 +48,6 @@ If we choose a loop that includes a metal and vacuum (i.e., both in and just out
 
 Note:
 * Correct answer: E (both A and D)
-
-</section>
-
-
-<section data-markdown>
-
-## Announcements
-
-* Exam 1 TONIGHT (7pm-9pm)
-  - A149 PSS; Across from FRIB (Wilson side)
-* Homework 6 is posted (Due next Wed.)
-
-</section>
-
-<section data-markdown>
-
-## Physics Colloquium
-
-### Breaking the Myth of the "Non-Traditional" Physicist
-#### The Real Story About Employment for Physics Graduates
-
-Crystal Bailey
-
-
-*Careers Program Manager*
-
-American Physical Society
-
-**In this room, tomorrow 4:10pm-5pm**
 
 </section>
 
