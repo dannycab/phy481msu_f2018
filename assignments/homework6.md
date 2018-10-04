@@ -1,25 +1,25 @@
 ---
 layout: homework
 use_math: true
-title: Homework 6 (Due October 11th)
+title: Homework 6 (Due October 12th)
 ---
 
-Homework 6 emphasizes the conductor problem, which requires new methods to approach finding $V$ or $\mathbf{E}$ as we are often unable to find $\rho$ a priori. In the presense of an external electric field, charges will shift in a conductor, thus complicating matters of finding $\rho$. We start with a computational problem that harkens back to energy and energy density to unpack a little puzzle we discussed in class.
+Homework 6 emphasizes the conductor problem, which requires new methods to approach finding $V$ or $\mathbf{E}$ as we are often unable to find $\rho$ a priori. In the presense of an external electric field, charges will shift in a conductor, thus complicating matters of finding $\rho$.
 
-[Dropbox file request link for Homework 6](https://www.dropbox.com/request/e5f3Diyn90puSVAq9aCB)
+## 1 and 2. Assessment is on-going
 
-## 1. Another Energy Puzzle
+**TURN THIS WORK IN SEPARATE FROM YOUR REGULAR HOMEWORK TO DANNY**
 
-In class, we discussed how the total electrostatic energy of two point charges will change as they are brought together. The result felt somewhat counter-intutitive. For two point charges of opposite sign, the total energy decreases as we bring them together. In this problem, you will explore this situtation computationally. You can [download the notebook](../jupyter/HW6-ElectricEnergyDensity.ipynb) (or [view it here](https://github.com/dannycab/phy481msu_f2017/blob/master/jupyter/HW6-ElectricEnergyDensity.ipynb)).
+An examination is one measure of your understanding at a given moment in time. It is often a stressful and high stakes situation, which means that folks tend to perform differently depending on how this situation affects them. My goal is not for you to perform physics (i.e., just get the right answer), but to become reflective of your learning of physics (and of learning in general). To that end, I would like to invite you to re-solve the first exam. I've posted a [PDF here](./images/exam1.pdf).
 
-1. In the jupyter notebook, we have created two point charges whose field we can see in 2D space. For this problem, we will limit our solution to the plane to reduce computational load. It looks like the dipole that we have seen before. The algorithm you will develop to determine the approximate total energy relies on the energy density: $u(\mathbf{r}) = \frac{\varepsilon_0}{2}E(\mathbf{r})^2$. Compute the energy density at each point in the space and plot the result in 3D (with the 3rd dimension representing the energy density at each point). Here, you might need to look into making [surface plots](https://matplotlib.org/mpl_toolkits/mplot3d/tutorial.html#surface-plots) or [contour plots](https://matplotlib.org/mpl_toolkits/mplot3d/tutorial.html#contour-plots) in Python (your choice). Comment on any features of the energy density that you notice.
-2. Now, pick a point between the two charges (maybe the midpoint), and plot the energy density at that point vs separation between charges. What do you notice a how the local energy density changes as the charges get closer together?
-3. Add up the density at every point in space to find the estimated total energy $U \approx U_{est} = \sum u_i(\mathbf{r}_i)$.
-4. Now, that you have tools to compute the energy density in 2D space from part 3, recompute it for different values of the separation between the charges, and plot the results ($U_{est}$ vs $r_{sep}$). What happens to the estimated total energy as the charges get closer together?
-5. Given what you have learned from parts 4 and 6, what is the story regarding energy density and total energy as the charges move closer together?
-6. BONUS - We have made a choice of mesh (number of grid points) and total space (how big the space is). How good were those choices? That is numerical solutions are always estimates. We seek convergence to some solution that is numerical in nature, so how good did we do?
+In addition to solving the problems again, I would like you to write a short summary of what you felt like you did incorrectly at the time of the exam for each problem (i.e., what you think you got wrong and why) and how your solution resolves this problem (i.e., what approach you needed to take to solve the problem correctly). What I'm asking is that you reflect on your exam solutions and what understanding you needed to draw on to solve the problems.
 
-## 2. Capacitors, metals, and continuity
+You are welcome to work on the problems together, but your reflection should be your own and individualized. It is through this kind of thinking about our own learning that we become expert learners.
+
+**Completing this exercise will not count towards your homework, but will instead reward you with earning 1/2 of the (non-bonus) credit back on your exam.**
+
+
+## 3. Capacitors, metals, and continuity
 
 We have discovered that there is a curious result when looking at the electric field across a boundary. It is discontinuous! by an amount that is consistently the same expression ($\sigma/\varepsilon_0$). However, we have also found that the electric potential across the boundary is continuous.
 
@@ -32,7 +32,7 @@ Consider a very large set of metal capacitor plates separated by a small distanc
 5. What do you notice about the graphs you sketched in Parts 2 and 4?
 6. BONUS: Consider that the plates have some depth to them (as with any real physical plate). Let them have a width $w$. Using what you remember or know about metals, what happens to your graphs in Parts 2 and 4? (For example, we will learn soon that metals in electrostatics are equipotential surfaces.)
 
-## 3. Gauss' Law and Cavities
+## 4. Gauss' Law and Cavities
 
 A **metal** sphere of radius $R$, carrying a charge $+q$, is surrounded by a thick concentric **metal** shell (inner radius $a$, outer radius $b$). The shell carries no net charge. Where requested, please explain your reasoning.
 
@@ -44,7 +44,7 @@ A **metal** sphere of radius $R$, carrying a charge $+q$, is surrounded by a thi
 4. Find the potential everywhere, use $r \rightarrow \infty$ as your reference point for $V=0$.
 5. Now the outer surface is touched by a grounding wire, which lowers its potential to zero. How do your answers change to parts 2 and 4? Explain your reasoning.
 
-## 4. Coax capacitors
+## 5. Coax capacitors
 
 Consider a coaxial cable with an inner conducting cylinder has radius $a$ and the outer conducting cylindrical shell has inner radius $b$. It is physically easy to set up any fixed potential difference $\Delta V$ between the inner and outer conductors. In practice, the cable is always electrically neutral.
 
@@ -56,10 +56,6 @@ Consider a coaxial cable with an inner conducting cylinder has radius $a$ and th
 4. Estimate the capacitance per meter of the coaxial cable that the cable company uses to send TV signals into homes. Justify any assumptions.
 5. This model is also excellent for "axons", which are long cylindrical cells (basically coax cables) carrying nerve impulses in your body and brain.  Estimate the capacitance (in SI metric units, Farads) of your sciatic nerve. *Assumptions - the sciatic nerve is the longest in your body, it has a diameter of roughly 1 micron, and a length of perhaps 1 m. Note that axons generally have a value of b which is very close to a (i.e. the gap is extremely tiny, b-a is about 1 nanometer. ) so you can simplify your expression using $ln(1+\epsilon)\approx\epsilon$.*
 
-## 5. What is a farad?
-
-1. The farad is actually an enormous unit of capacitance. To illustrate this, treat the Earth as a conducting sphere and find its capacitance.
-2. Look up the capacitance of typical capacitors used in electronic applications. If these capacitors were conducting spheres, roughly how large would they be physically? Does this size seem to be the right size given your experience with electronic components?
 
 ## 6. Superposition in conductors ("shielding")
 
@@ -73,18 +69,3 @@ We carve out two spherical cavities from a metal sphere of radius $R$ (as shown 
 3. Sketch the electric field everywhere. If the field is zero anywhere, indicate this explicitly. Explain how you know the electric field looks this way.
 4. Determine the magnitude of electric field outside the conductor and inside each cavity.
 5. If we brought an external charge $q_c$ near the conducting sphere how do your answers to parts 1-4 change? You may answer in words, pictures or both.
-
-## 7. Proving Uniqueness
-
-For this homework problem, you will prove the "second uniqueness theorem" yourself, using a slightly different method than what Griffiths does (though you may find some common "pieces" are involved!) It will really help to review/read the section on the second uniqueness theorem as you work through this problem.
-
-**Do it like this:**
-
-* Green's Identity is true for ANY choice of T and U, so let the functions T and U in that identity both be the SAME function.
-
-$$\int_V \left(T \nabla^2 U + \nabla T \cdot \nabla U\right) d\tau = \oint_S \left(T \nabla U\right)\cdot d\mathbf{A}$$
-
-* Specifically, you should set them both equal to $V_3=V_1-V_2$ where $V_1$ and $V_2$ represent different solutions to the same boundary value problem ($\nabla^2 V = 0$ with boundary conditions).
-* Then, using Green's Identity (along with some arguments about what happens at the boundaries, rather like Griffith's uses in his proof) should let you quickly show that $E_3$, which is defined to be the negative gradient of $V_3$ (as usual), must vanish everywhere throughout the volume.  QED.
-
-*Work to understand the game. We are checking if there are two different potential functions, $V_1$ and $V_2$, each of which satisfies Laplace's equation throughout the region we're considering. You construct (define) $V_3$ to be the difference of these, and you prove that $V_3$ (or in this case, $\mathbf{E}_3$) must vanish everywhere in the region. This means there really is only one unique E-field throughout the region after all!  This is another one of those "formal manipulation" problems, giving you a chance to practice with the divergence theorem and think about boundary conditions.*
