@@ -6,6 +6,18 @@ transition: slide
 
 <section data-markdown>
 
+I feel that my performance on Exam 1 is representative of my understanding of E&M at this point in time.
+
+1. Strongly Agree
+2. Agree
+3. Neither Agree/Disagree
+4. Disagree
+5. Strongly Disagree
+
+</section>
+
+<section data-markdown>
+
 I feel that Exam 1 was a fair assessment.
 
 1. Strongly Agree
@@ -37,6 +49,33 @@ I feel that Exam 1 was aligned with what we have been doing (in class and on hom
   * Solve Exam 1 and turn into Danny on Friday
   * Write a paragraph for each problem on what you needed to do to solve the problem correctly
 * Ruxin will cover help sessions next week
+
+</section>
+
+<section data-markdown>
+
+The eletric field between the shells is just that of a point charge. What is the electric potential difference between the outer shell ($r=b$) and the inner shell ($r=a$)?
+
+1. $\dfrac{Q}{4\pi\varepsilon_0}\left(\dfrac{1}{b}-\dfrac{1}{a}\right)$
+2. $\dfrac{Q}{4\pi\varepsilon_0}\left(\dfrac{1}{a}-\dfrac{1}{b}\right)$
+3. $\dfrac{Q}{4\pi\varepsilon_0}\left(\dfrac{1}{b^2}-\dfrac{1}{a^2}\right)$
+4. $\dfrac{Q}{4\pi\varepsilon_0}\left(\dfrac{1}{a^2}-\dfrac{1}{b^2}\right)$
+5. Something else?
+
+Note: Correct Answer is B
+</section>
+
+<section data-markdown>
+
+What is the sign of the potential difference between the outer shell ($r=b$) and the inner shell ($r=a$)?
+
+$\Delta V = V(b) - V(a)$
+
+1. $\Delta V > 0$
+2. $\Delta V < 0$
+2. ???
+
+Note: Correct Answer is A
 
 </section>
 
