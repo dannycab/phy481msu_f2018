@@ -32,6 +32,7 @@ permalink: notes/index.html
 - Sept 28 Electric Potential Energy [[HTML]](./13-slides.html) [[PDF]](./13-slides.pdf)
 - Oct 1 Conductors [[HTML]](./14-slides.html) [[PDF]](./14-slides.pdf)
 - Oct 3 Conductors II: Electric Boogaloo [[HTML]](./15-slides.html) [[PDF]](./15-slides.pdf)
+- Oct 5 Introduction to Laplace's Equation [[HTML]](./16-slides.html) [[PDF]](./16-slides.pdf)
 
 ### Computational Demos
 
