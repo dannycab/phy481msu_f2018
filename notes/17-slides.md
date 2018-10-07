@@ -22,6 +22,12 @@ Note:
 
 <section data-markdown>
 
+<img src="./images/wamps_gre.png" align="center" style="width: 1000px";/>
+
+</section>
+
+<section data-markdown>
+
 ### Method of Relaxation
 
 <img src="./images/convergence_relax.png" align="center" style="width: 700px";/>

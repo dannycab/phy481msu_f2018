@@ -14,6 +14,9 @@ permalink: notes/index.html
 - [06 Boundary Conditions](./handwritten/06_Boundary_Conditions.pdf)
 - [07 Energy](./handwritten/07_Energy.pdf)
 - [08 Conductors](./handwritten/08_Conductors.pdf)
+- [09 Laplace's Equation](./handwritten/09_Laplaces_Equation.pdf)
+- [10 Method of Relaxation](./handwritten/10_Method_of_Relaxation.pdf)
+- [11 Separation of Variables (Cartesian)](./handwritten/11_Separation_of_Variables_Cartesian.pdf)
 
 ### Slides
 
@@ -33,6 +36,7 @@ permalink: notes/index.html
 - Oct 1 Conductors [[HTML]](./14-slides.html) [[PDF]](./14-slides.pdf)
 - Oct 3 Conductors II: Electric Boogaloo [[HTML]](./15-slides.html) [[PDF]](./15-slides.pdf)
 - Oct 5 Introduction to Laplace's Equation [[HTML]](./16-slides.html) [[PDF]](./16-slides.pdf)
+- Oct 8 Laplace's Equation and the Method of Relaxation [[HTML]](./17-slides.html) [[PDF]](./17-slides.pdf)
 
 ### Computational Demos
 
