@@ -37,6 +37,8 @@ permalink: notes/index.html
 - Oct 3 Conductors II: Electric Boogaloo [[HTML]](./15-slides.html) [[PDF]](./15-slides.pdf)
 - Oct 5 Introduction to Laplace's Equation [[HTML]](./16-slides.html) [[PDF]](./16-slides.pdf)
 - Oct 8 Laplace's Equation and the Method of Relaxation [[HTML]](./17-slides.html) [[PDF]](./17-slides.pdf)
+- Oct 10 Separation of Variables (Cartesian) [[HTML]](./18-slides.html) [[PDF]](./18-slides.pdf)
+- Oct 8 Separation of Variables II (Cartesian) [[HTML]](./19-slides.html) [[PDF]](./19-slides.pdf)
 
 ### Computational Demos
 

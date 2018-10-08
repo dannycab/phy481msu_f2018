@@ -6,9 +6,24 @@ title: Homework 7 (Due October 18th)
 
 Homework 7 focuses on Laplace's equations and solving it using infinite series solutions. You should become comfortable with setting boundary conditions for PDE problems like this and develop a sense of the process for solving these problems analytically. Additionaly, you will plot these solutions in 2D and develop the method of relaxation in 1D to investigate issues with the method.
 
-[Dropbox file request link for Homework 7](https://www.dropbox.com/request/ReuOdcuKjvoLvVZok72Z)
+[Dropbox file request link for Homework 7](https://www.dropbox.com/request/VFZZjYX5f2Rkizq8uov6)
 
-## 1. Potential and electric field with Laplace's equation
+## 1. Proving Uniqueness
+
+For this homework problem, you will prove the "second uniqueness theorem" yourself, using a slightly different method than what Griffiths does (though you may find some common "pieces" are involved!) It will really help to review/read the section on the second uniqueness theorem as you work through this problem.
+
+**Do it like this:**
+
+* Green's Identity is true for ANY choice of T and U, so let the functions T and U in that identity both be the SAME function.
+
+$$\int_V \left(T \nabla^2 U + \nabla T \cdot \nabla U\right) d\tau = \oint_S \left(T \nabla U\right)\cdot d\mathbf{A}$$
+
+* Specifically, you should set them both equal to $V_3=V_1-V_2$ where $V_1$ and $V_2$ represent different solutions to the same boundary value problem ($\nabla^2 V = 0$ with boundary conditions).
+* Then, using Green's Identity (along with some arguments about what happens at the boundaries, rather like Griffith's uses in his proof) should let you quickly show that $E_3$, which is defined to be the negative gradient of $V_3$ (as usual), must vanish everywhere throughout the volume.  QED.
+
+*Work to understand the game. We are checking if there are two different potential functions, $V_1$ and $V_2$, each of which satisfies Laplace's equation throughout the region we're considering. You construct (define) $V_3$ to be the difference of these, and you prove that $V_3$ (or in this case, $\mathbf{E}_3$) must vanish everywhere in the region. This means there really is only one unique E-field throughout the region after all!  This is another one of those "formal manipulation" problems, giving you a chance to practice with the divergence theorem and think about boundary conditions.*
+
+## 2. Potential and electric field with Laplace's equation
 
 In class we derived the solution for the 2D version of Laplace's equation with the boundary conditions shown below.
 
@@ -22,13 +37,13 @@ $$V(x,y) = \sum_{n=1,3,5,\dots}^{\infty} \dfrac{4 V_0}{\pi n} \sin \left(\dfrac{
 
 While perfectly analytic, this solution is hard to visualize. What does that solution look like? Take $V_0 = 10V$ and $a = 1m$.
 
-1. Plot the approximate solution in 3D space using Python's ```mplot3D``` for just the first term in the sum (i.e., only for $n = 1$). Download this [Jupyter notebook](../jupyter/HW7-3dPotentialPlot.ipynb) (you can [view it here](https://github.com/dannycab/phy481msu_f2017/blob/master/jupyter/HW7-3dPotentialPlot.ipynb)), which walks you through how to plot in 3D.
+1. Plot the approximate solution in 3D space using Python's ```mplot3D``` for just the first term in the sum (i.e., only for $n = 1$). Download this [Jupyter notebook](../jupyter/HW7-3dPotentialPlot.ipynb) (you can [view it here](https://github.com/dannycab/phy481msu_f2018/blob/master/jupyter/HW7-3dPotentialPlot.ipynb)), which walks you through how to plot in 3D.
 2. Plot the approximate solution in 3D space for the first 5 terms. What do you notice about the boundary where $V=V_0$?
 3. Plot the approximate solution such that the boundary where $V=V_0$ looks very close to constant. How many terms did you need? If you didn't do it for Part 2, you will have to figure out how to automatically compute each term to construct your plot instead of copying-and-pasting 50, or 100, or 1000 times!
 4. Given this plot of the potential, sketch (by hand) what the electric field looks like. Recall that $\mathbf{E} = -\nabla V$.
 
 
-## 2. Potential in a cubical box
+## 3. Potential in a cubical box
 
 You have a cubical box (sides all of length $a$) made of 6 metal plates that are insulated from each other. The left wall is located at $x=-a/2$ and the right wall is at $x=+a/2$. Both left and right walls are held at constant potential $V=V_0$. All four other walls are grounded ($V=0$ for these walls).
 
@@ -38,7 +53,7 @@ You have a cubical box (sides all of length $a$) made of 6 metal plates that are
 2. Also, is V=0 at the center of this cube?
 3. Is E=0 there? Why, or why not?
 
-## 3. Separation of variables - Cartesian 2D with new Boundary Conditions
+## 4. Separation of variables - Cartesian 2D with new Boundary Conditions
 
 A square rectangular pipe (sides of length $a$) runs parallel to the z-axis (from $-\infty$ to $\infty$)  The 4 sides are maintained with boundary conditions given in the figure. (Each of the 4 sides is insulated from the others at the corners).
 
@@ -49,7 +64,7 @@ A square rectangular pipe (sides of length $a$) runs parallel to the z-axis (fro
 2. Sketch the E-field lines and equipotential contours inside the pipe. (Also, state in words what the boundary condition on the left wall means - what does it tell you? Is the left wall a conductor?)
 3. Find the charge density $\sigma(x,y=0,z)$ everywhere on the bottom conducting wall $(y=0)$.
 
-## 4. Reminders about Gauss' Law
+## 5. Reminders about Gauss' Law
 
 Consider a hypothetical sphere of charge with radius $a$. The charge density for this $\rho(r) = \frac{c}{\sqrt{r}}$.
 
@@ -57,7 +72,7 @@ Consider a hypothetical sphere of charge with radius $a$. The charge density for
 2. Why would would use Gauss' Law for this problem and not directly integrate the charge density or find $\mathbf{E}$ or $V$?
 3. What if the charge density were $\rho(r,\phi) = \frac{c}{\sqrt{r}}\sin(\phi)$? What approach might you use here? *You do not have to solve this problem, we will find a way to solve problems like it approximately in the ''far field'' limit later.*
 
-## 5. Method of relaxation in 1D
+## 6. Method of relaxation in 1D
 
 In this problem, you will write a 1D method of relaxation solver for Laplace's equation. Your solver should start with boundary conditions (e.g., $V(0) = 0$ and $V(1) = 1$) and then use the method of relaxation to develop a linear solution (as we know the analytical solution). This might seem silly, but it will be clearly important to know this method well in 2D. Secondly, you will investigate what happens when you make bad initial guesses. At this point, you have written a several different codes for this class. So, for this problem, I will not provide a notebook, but ask that you write your own. I will, however, remind you of the pseudocode that we developed in class.
 

@@ -24,47 +24,6 @@ Note:
 
 <section data-markdown>
 
-## Announcements
-
-* Exam 1 is graded
-  - Should have received email this morning with updated grades
-* Danny out of town Friday
-  - Norman Birge will substitute
-
-</section>
-
-<section data-markdown>
-
-### Exam 1 Grades
-
-<img src="./images/exam1.png" align="center" style="width: 500px";/>
-
-
-
-</section>
-
-<section data-markdown>
-
-### Homework Averages
-
-<img src="./images/hw.png" align="center" style="width: 500px";/>
-
-
-
-</section>
-
-<section data-markdown>
-
-### Please do your homework
-
-<img src="./images/exam1vhw.png" align="center" style="width: 500px";/>
-
-
-
-</section>
-
-<section data-markdown>
-
 ### Separation of Variables (Cartesian)
 
 <img src="./images/cartesian_sep_variables.png" align="center" style="width: 500px";/>
