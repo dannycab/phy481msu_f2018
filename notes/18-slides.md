@@ -6,6 +6,48 @@ transition: slide
 
 <section data-markdown>
 
+With the approximate form of Laplace's equation:
+
+$\dfrac{V(x_i+a) - 2V(x_i) + V(x_i-a)}{a} \approx 0$
+
+What is a the appropriate estimate of $V(x_i)$?
+
+1. ${1}/{2}(V(x_i+a)-V(x_i-a))$
+2. ${1}/{2}(V(x_i+a)+V(x_i-a))$
+3. ${a}/{2}(V(x_i+a)-V(x_i-a))$
+4. ${a}/{2}(V(x_i+a)+V(x_i-a))$
+5. Something else
+
+Note:
+* Correct answer: B
+
+</section>
+
+<section data-markdown>
+
+<img src="./images/cuwip.png" align="center" style="width: 600px";/>
+
+
+</section>
+
+<section data-markdown>
+
+To investigate the convergence, we must compare the estimate of $V$ before and after each calculation. For our 1D relaxation code, $V$ will be a 1D array. For the kth estimate, we can compare $V_k$ against its previous value by simply taking the difference.
+
+Store this in a variable called ``err``. What is the type for ``err``?
+
+1. A single number
+2. A 1D array
+3. A 2D array
+4. ???
+
+Note:
+* Correct Answer: B
+
+</section>
+
+<section data-markdown>
+
 The Method of Relaxation also works for Poisson's equation (i.e., when there is charge!).
 
 Given, $\nabla^2 V \approx \dfrac{V(x+a)-2V(x)+V(x-a)}{a^2}$

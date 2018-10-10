@@ -126,38 +126,3 @@ $$f''(x_i) \approx \dfrac{f'(x_i + a/2) - f'(x_i - a/2)}{a}$$
 Derive the second derivative in terms of $f$.
 
 </section>
-
-<section data-markdown>
-
-With the approximate form of Laplace's equation:
-
-$\dfrac{V(x_i+a) - 2V(x_i) + V(x_i-a)}{a} \approx 0$
-
-What is a the appropriate estimate of $V(x_i)$?
-
-1. ${1}/{2}(V(x_i+a)-V(x_i-a))$
-2. ${1}/{2}(V(x_i+a)+V(x_i-a))$
-3. ${a}/{2}(V(x_i+a)-V(x_i-a))$
-4. ${a}/{2}(V(x_i+a)+V(x_i-a))$
-5. Something else
-
-Note:
-* Correct answer: B
-
-</section>
-
-<section data-markdown>
-
-To investigate the convergence, we must compare the estimate of $V$ before and after each calculation. For our 1D relaxation code, $V$ will be a 1D array. For the kth estimate, we can compare $V_k$ against its previous value by simply taking the difference.
-
-Store this in a variable called ``err``. What is the type for ``err``?
-
-1. A single number
-2. A 1D array
-3. A 2D array
-4. ???
-
-Note:
-* Correct Answer: B
-
-</section>
