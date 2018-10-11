@@ -6,6 +6,38 @@ transition: slide
 
 <section data-markdown>
 
+I have seen Separation of Variables before.
+
+1. Yes, and I'm comfortable with it.
+2. Yes, but I don't quite remember.
+3. Nope
+4. I'm triggered.
+
+PS. Hi from San Antonio -DC
+
+</section>
+
+<section data-markdown>
+
+Our example problem has the following boundary conditions:
+
+* $V(0,y>0) = 0; V(a,y>0) = 0$
+* $V(x_{0\rightarrow a},y=0) = V_0; V(x,y\rightarrow \infty) = 0$
+
+If $X''= c_1 X$ and $Y'' = c_2Y$ with $c_1 + c_2 = 0$, which is constant is positive?
+
+1. $c_1$
+2. $c_2$
+3. It doesn't matter either can be
+
+Note:
+* CORRECT ANSWER: B
+* Exponential solutions are expected in the y direction
+</section>
+
+
+<section data-markdown>
+
 Given the two diff. eq's :
 
 $$\dfrac{1}{X}\dfrac{d^2X}{dx^2} = C_1 \qquad \dfrac{1}{Y}\dfrac{d^2Y}{dy^2} = C_2$$
@@ -23,6 +55,7 @@ where $C_1+C_2 = 0$.  Given the boundary conditions in the figure, which coordin
 
 Note:
 * CORRECT ANSWER: B
+* Because it has to vanish on both ends
 </section>
 
 <section data-markdown>
@@ -59,6 +92,7 @@ When does $\sin(ka)e^{-ky}$ vanish?
 
 Note:
 * CORRECT ANSWER: D
+* It's actuall n*pi/a
 
 </section>
 
