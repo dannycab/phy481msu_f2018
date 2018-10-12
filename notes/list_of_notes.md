@@ -15,8 +15,11 @@ permalink: notes/index.html
 - [07 Energy](./handwritten/07_Energy.pdf)
 - [08 Conductors](./handwritten/08_Conductors.pdf)
 - [09 Laplace's Equation](./handwritten/09_Laplaces_Equation.pdf)
-- [10 Method of Relaxation](./handwritten/10_Method_of_Relaxation.pdf)
+- [10 Method of Relaxation (1D)](./handwritten/10_Method_of_Relaxation.pdf)
 - [11 Separation of Variables (Cartesian)](./handwritten/11_Separation_of_Variables_Cartesian.pdf)
+- [12 Method of Relaxation (2D)](./handwritten/12_Method_of_Relaxation.pdf)
+- [13 Separation of Variables (Spherical)](./handwritten/13_Separation_of_Variables_Spherical.pdf)
+- [14 Multipole Expansion](./handwritten/14_Multipole_Expansion.pdf)
 
 ### Slides
 
