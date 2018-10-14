@@ -7,7 +7,7 @@ transition: slide
 
 <section data-markdown>
 
-What is the value of $\int_0^{2\pi} \sin(nx)\sin(mx)\;dx$ ?
+What is the value of $\int_0^{a} \sin(n\pi x/a)\sin(m\pi x/a)\;dx$ ?
 
 1. Zero
 2. Non-zero
