@@ -42,7 +42,7 @@ Given that we want to solve Laplace's equation in 2D and that we have a descript
 
 $$f''(x) \approx \dfrac{f(x+a)-2f(x)+f(x-a)}{a^2}$$
 
-what is the appropriate numerical partial derivative for $V(x,y)$, $\partial V/\partial x \approx$,
+what is the appropriate numerical partial derivative for $V(x,y)$, $\partial^2 V/\partial x^2 \approx$,
 
 1. $$\left[V(x+a) - 2V(x) + V(x-a)\right]/a^2$$
 2. $$\left[V(x+a,y) - 2V(x,y) + V(x-a,y)\right]/a^2$$
@@ -85,5 +85,30 @@ Note:
 ### Separation of Variables (Spherical)
 
 <img src="./images/metal_in_ext_field.jpg" align="center" style="width: 500px";/>
+
+</section>
+
+<section data-markdown>
+
+The ODE that describes the $R(r)$ part of our solution is:
+
+$$\dfrac{d}{dr}\left(r^2\dfrac{dR}{dr}\right) = l(l+1)R$$
+
+I claim this ODE gives rise to polynomial solutions.
+
+Find a general solution for $R(r)$ in terms of $l$.
+
+</section>
+
+
+<section data-markdown>
+
+Let's take the $\Theta$ ODE term by term starting with $l=0$
+
+$$\dfrac{d}{d\theta}\left(\sin \theta \dfrac{d\Theta}{d\theta}\right) = 0$$
+
+What are some possible solutions?
+
+Hint: This is not as tricky as it might seem.
 
 </section>
