@@ -24,17 +24,6 @@ Note:
 
 <section data-markdown>
 
-## Announcements
-
-* Homework 8 has 2D relaxation problem
-  - It is OK to post code on piazza and get help
-  - Solution to HW7 problem 5 (1D relaxation) is linked (you may work from it)
-* DC out of town Monday; Norman Birge will cover
-
-</section>
-
-<section data-markdown>
-
 <img src="./images/dipole_moment.png" align="left" style="width: 300px";/>
 
 
@@ -59,5 +48,37 @@ Note:
 Multipole Expansion of the Power Spectrum of CMBR
 
 Note: The radiation from cosmic microwave background can be described in terms of contributions using a basis of functions with increasing smaller contributions.
+
+</section>
+
+<section data-markdown>
+
+For a dipole at the origin pointing in the z-direction, we have derived:
+
+$$\mathbf{E}_{dip}(\mathbf{r}) = \dfrac{p}{4 \pi \varepsilon_0 r^3}\left(2 \cos \theta\;\hat{\mathbf{r}} + \sin \theta\;\hat{\mathbf{\theta}}\right)$$
+
+<img src="./images/small_dipole.png" align="right" style="width: 200px";/>
+
+
+For the dipole $\mathbf{p} = q\mathbf{d}$ shown, what does the formula predict for the direction of $\mathbf{E}(\mathbf{r}=0)$?
+
+1. Down
+2. Up
+3. Some other direction
+4. The formula doesn't apply
+
+Note:
+* CORRECT ANSWER: D
+* The formula works far from the dipole only.
+
+
+</section>
+
+
+<section data-markdown>
+
+### Ideal vs. Real dipole
+
+<img src="./images/dipole_animation.gif" align="center" style="width: 450px";/>
 
 </section>

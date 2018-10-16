@@ -6,11 +6,46 @@ transition: slide
 
 <section data-markdown>
 
+The ODE that describes the $R(r)$ part of our solution is:
+
+$$\dfrac{d}{dr}\left(r^2\dfrac{dR}{dr}\right) = l(l+1)R$$
+
+I claim this ODE gives rise to polynomial solutions.
+
+Find a general solution for $R(r)$ in terms of $l$.
+
+</section>
+
+<section data-markdown>
+
 I still have questions about what we are trying to do with separation of variables in spherical coordinates.
 
 1. Yes, definitely, let's talk about what we are trying to do (briefly).
 2. I have some questions, but I think I got the gist of it. We can move on.
 3. I got it, let's move on.
+
+</section>
+
+<section data-markdown>
+
+## Announcements
+
+* Homework 8 has 2D relaxation problem
+  - It is OK to post code on Slack and get help
+  - Solution to HW7 (1D relaxation) is linked (you may work from it)
+* DC out of town Friday; Rachel will cover
+
+</section>
+
+<section data-markdown>
+
+Let's take the $\Theta$ ODE term by term starting with $l=0$
+
+$$\dfrac{d}{d\theta}\left(\sin \theta \dfrac{d\Theta}{d\theta}\right) = 0$$
+
+What are some possible solutions?
+
+Hint: This is not as tricky as it might seem.
 
 </section>
 
