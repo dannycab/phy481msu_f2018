@@ -24,6 +24,12 @@ Note:
 
 <section data-markdown>
 
+<img src="./images/wamps_gre_2.png" align="center" style="width: 800px";/>
+
+</section>
+
+<section data-markdown>
+
 $$V(r,\theta) = \sum_{l=0}^{\infty} \left(A_l r^l + \dfrac{B_l}{r^{l+1}}\right)P_l(\cos \theta)$$
 
 Suppose V on a spherical shell is:
