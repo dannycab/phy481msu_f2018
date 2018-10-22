@@ -45,7 +45,7 @@ permalink: notes/index.html
 - Oct 15 Method of Relaxation (2D) and Intro to Separation of Variables (Spherical) [[HTML]](./20-slides.html) [[PDF]](./20-slides.pdf)
 - Oct 17 Separation of Variables II (Spherical) [[HTML]](./21-slides.html) [[PDF]](./21-slides.pdf)
 - Oct 19 Separation of Variables III (Spherical) [[HTML]](./22-slides.html) [[PDF]](./22-slides.pdf)
-- Oct 22 Multipole Expansion [[HTML]](./23-slides.html)[[PDF]](./23-slides.pdf)
+- Oct 22 Dipoles and Introduction to the Multipole Expansion [[HTML]](./23-slides.html)[[PDF]](./23-slides.pdf)
 
 ### Computational Demos
 
