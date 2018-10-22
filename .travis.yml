@@ -1,4 +1,7 @@
-language: ruby
-rvm:
-- 2.1
-script: "bundle exec jekyll build"
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: c3c400328e032ef2e731d9bf0ce3938736251c38  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  on:
+    branch: master
