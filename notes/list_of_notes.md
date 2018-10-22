@@ -46,6 +46,7 @@ permalink: notes/index.html
 - Oct 17 Separation of Variables II (Spherical) [[HTML]](./21-slides.html) [[PDF]](./21-slides.pdf)
 - Oct 19 Separation of Variables III (Spherical) [[HTML]](./22-slides.html) [[PDF]](./22-slides.pdf)
 - Oct 22 Dipoles and Introduction to the Multipole Expansion [[HTML]](./23-slides.html) [[PDF]](./23-slides.pdf)
+- Oct 24 Multipole Expansion [[HTML]](./24-slides.html) [[PDF]](./24-slides.pdf)
 
 ### Computational Demos
 
