@@ -6,6 +6,36 @@ transition: slide
 
 <section data-markdown>
 
+<img src="./images/dipole_moment.png" align="left" style="width: 300px";/>
+
+
+Two charges are positioned as shown to the left. The relative position vector between them is $\mathbf{d}$. What is the value of of the dipole moment? $\sum_i q_i \mathbf{r}_i$
+
+1. $+q\mathbf{d}$
+2. $-q\mathbf{d}$
+3. Zero
+4. None of these
+
+Note:
+* CORRECT ANSWER: A
+
+</section>
+
+<section data-markdown>
+
+## Multipole Expansion
+
+<img src="./images/universe_multipole.jpg" align="center" style="width: 300px";/>
+
+Multipole Expansion of the Power Spectrum of CMBR
+
+Note: The radiation from cosmic microwave background can be described in terms of contributions using a basis of functions with increasing smaller contributions.
+
+</section>
+
+<section data-markdown>
+
+
 <img src="./images/dipole_setup.png" align="left" style="width: 300px";/>
 
 Two charges are positioned as shown to the left. The relative position vector between them is $\mathbf{d}$. What is the dipole moment of this configuration?
