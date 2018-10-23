@@ -12,3 +12,4 @@ permalink: ./assignments/index.html
 - [Homework 6 (Due October 12th)](./homework6.html)
 - [Homework 7 (Due October 19th)](./homework7.html)
 - [Homework 8 (Due October 26th)](./homework8.html)
+- [Homework 9 (Due November 2)](./homework9.html)
