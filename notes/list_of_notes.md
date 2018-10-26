@@ -20,6 +20,8 @@ permalink: notes/index.html
 - [12 Method of Relaxation (2D)](./handwritten/12_Method_of_Relaxation.pdf)
 - [13 Separation of Variables (Spherical)](./handwritten/13_Separation_of_Variables_Spherical.pdf)
 - [14 Multipole Expansion](./handwritten/14_Multipole_Expansion.pdf)
+- [15 Polarization](./handwritten/15_Polarization.pdf)
+- [16 The D Field](./handwritten/16_D_Field.pdf)
 
 ### Slides
 
