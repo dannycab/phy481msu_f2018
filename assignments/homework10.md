@@ -1,10 +1,10 @@
 ---
 layout: homework
 use_math: true
-title: Homework 10 (Due November 8th)
+title: Homework 10 (Due November 9th)
 ---
 
-Homework 10 focuses on developing ideas about the D-field including how to apply Gauss' Law for $\mathbf{D}$ and the relationships between $\mathbf{D}$, $\mathbf{E}$, and $\mathbf{P}$. At the end of this problem set is a problem for you and partner to complete as a review for the upcoming exam.
+Homework 10 focuses on developing ideas about the D-field including how to apply Gauss' Law for $\mathbf{D}$ and the relationships between $\mathbf{D}$, $\mathbf{E}$, and $\mathbf{P}$.
 
 ### 1. Bound charges and the D-field
 
@@ -42,14 +42,3 @@ A solid sphere (radius $R$) of linear dielectric material (dielectric constant $
 1. Find the potential at the center of the sphere (with $V(\infty)=0$). *Hint: You might want to find D first.*
 2. Does your answer come out larger or smaller than for a simple sphere of charge with uniform charge density $\rho_f$ (that is, if you had neglected the effect of the dielectric constant)? Would that mean setting $\varepsilon_r$ to 0, or to 1?  Does this result make physical sense to you? Explain briefly.
 3. What do you get in the limit of infinite dielectric constant? What physical situation does that limit remind you of?
-
-
-### 5. Exam Review
-
-As a result of working this problem, you will have solved a total of 4 new problems (2 short ones and 2 longer ones), which can go a long way to helping you study for the exam. So take this problem seriously. There is a link to our course goals in the menu above. [Go to that page and read it first!](../learning_goals.html) Then,
-
-1. Invent two plausible exam questions: (1) a fairly quick "clicker" like question, and (2) a more computational "homework-like" question. Write them both down, including your own solutions. If the 2nd one takes less than 5 min, how could you have made it more interesting/richer/challenging? If it takes more than 20 min, how could you scaffold/hint/simplify to get at the interesting physics, without making it so tedious/grungy?
-2. Write brief (just a few words!) summaries of each problem, characterizing what content your problems cover (e.g, "Coulomb's law with continuous charge distributions", or "Gauss' law", or "The divergence theorem" or etc). Also, which of the ["course scale learning goals"](../learning_goals.html) do your problems address? Which ["topic scale learning goals"](../learning_goals.html) do your problems address?
-3. Give your problems to another student and obtain another student's problems. Solve the other student's problems and then write about a paragraph about your understanding of the topic as it relates to the problem. Turn in both the other students' problems (include their name), your solutions, and your understanding as it relates to the problems.
-
-*Optional – feel free to share your sample questions on Piazza, so that other students might benefit from your ideas.*
