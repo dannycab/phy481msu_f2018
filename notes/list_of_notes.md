@@ -22,6 +22,8 @@ permalink: notes/index.html
 - [14 Multipole Expansion](./handwritten/14_Multipole_Expansion.pdf)
 - [15 Polarization](./handwritten/15_Polarization.pdf)
 - [16 The D Field](./handwritten/16_D_Field.pdf)
+- [17 Boundary Conditions Electric Field](./handwritten/17_Boundary_Conditions_Electric_Field.pdf)
+- [18 Lorentz Force](./handwritten/18_Lorentz_Force.pdf)
 
 ### Slides
 
