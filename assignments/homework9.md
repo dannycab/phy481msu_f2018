@@ -4,7 +4,7 @@ use_math: true
 title: Homework 9 (Due November 2nd)
 ---
 
-Homework 9 helps you further investigates the multipole expansion and develop models for polarization that we will use to understand electric fields in matter. There is no Python problem this week.
+Homework 9 helps you further investigates the multipole expansion and develop models for polarization that we will use to understand electric fields in matter. 
 
 [Dropbox file request for Homework 9](https://www.dropbox.com/request/HCbujqc3YJlRBzz7UDvR)
 
