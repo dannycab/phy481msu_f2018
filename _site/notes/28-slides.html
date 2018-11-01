@@ -54,7 +54,64 @@
       <div class="slides">
         <section data-markdown="">
 
-When there are no free charges, $\rho_{free}$ = 0, in a linear dielectric material, the electric potential, $V$, in that material satisfies Laplace's equation?
+We define "Electric Displacement" or "D" field,
+$$\mathbf{D} = \varepsilon_0 \mathbf{E} + \mathbf{P}$$
+
+If you put a dielectric in an **external** field, it polarizes, adding a new **induced** field (from the bound charges). These superpose, making a **total** electric field. Which of these three E fields is the "E" in the formula for D above?
+
+1. $\mathbf{E}_{ext}$
+2. $\mathbf{E}_{induced}$
+3. $\mathbf{E}_{tot}$
+
+Note:
+* CORRECT ANSWER: C
+
+</section>
+
+<section data-markdown="">
+
+We define $\mathbf{D} = \varepsilon_0 \mathbf{E} + \mathbf{P}$, with
+
+$$\oint \mathbf{D}\cdot d\mathbf{A} = Q_{free}$$
+
+&lt;img src="./images/charge_in_spherical_dielectric.png" align="right" style="width: 200px";/&gt;
+
+
+A point charge $+q$ is placed at the center of a dielectric sphere (radius $R$).  There are no other free charges anywhere.  What is $|\mathbf{D}(r)|$?
+
+
+1. $q/(4 \pi r^2)$ everywhere
+2. $q/(4 \varepsilon_0\pi r^2)$ everywhere
+3. $q/(4 \pi r^2)$ for $r &lt; R$, but $q/(4 \varepsilon_0\pi r^2)$ for $r&gt;R$
+4. None of the above, it's more complicated
+5. We need more info to answer!
+
+Note:
+* CORRECT ANSWER: A
+
+
+</section>
+
+<section data-markdown="">
+
+For linear dielectrics the relationship between the polarization, $\mathbf{P}$, and the total electric field, $\mathbf{E}$, is given by:
+
+$$\mathbf{P} = \varepsilon_0 \chi_e \mathbf{E}$$
+
+where $X_e$ is typically a known constant. Think about what happens if (1) $X_e \rightarrow 0$ or if (2) $X_e \rightarrow \infty$. What do each of these limits describe?
+
+1.  (1) describes a metal and (2) describes vacuum
+2.  (1) describes vacuum and (2) describes a metal
+3. Any material can gave either $X_e \rightarrow 0$ or $X_e \rightarrow \infty$
+
+Note:
+* CORRECT ANSWER: B
+
+</section>
+
+<section data-markdown="">
+
+When there are no free charges, $\rho_{free}$ = 0, in a linear dielectric material, the electric potential, $V$, in that material satisfies Laplace's equation.
 
 $$\nabla^2 V = 0$$
 
