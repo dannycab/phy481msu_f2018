@@ -22,6 +22,19 @@ Note:
 
 <section data-markdown>
 
+## Vote on Tuesday!
+
+* Find your polling station online: [vote411.org](https://www.vote411.org/)
+* Make sure to vote on state-wide proposals
+  * Proposals 1, 2, 3
+* Questions about candidates or proposals?
+  * Check [Ballotpedia](https://ballotpedia.org/Michigan_elections,_2018)
+  * More detailed information: [Vote Save America](https://votesaveamerica.com/)
+    * Caveat: VSA has a clear liberal bias
+</section>
+
+<section data-markdown>
+
 We define $\mathbf{D} = \varepsilon_0 \mathbf{E} + \mathbf{P}$, with
 
 $$\oint \mathbf{D}\cdot d\mathbf{A} = Q_{free}$$
