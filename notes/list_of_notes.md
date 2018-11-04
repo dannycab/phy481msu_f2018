@@ -55,6 +55,7 @@ permalink: notes/index.html
 - Oct 29 Polarization: [[HTML]](./26-slides.html) [[PDF]](./26-slides.pdf)
 - Oct 31 Polarization II: [[HTML]](./27-slides.html) [[PDF]](./27-slides.pdf)
 - Nov 2 The D-field: [[HTML]](./28-slides.html) [[PDF]](./28-slides.pdf)
+- Nov 5 Using Boundary Conditions: [[HTML]](./29-slides.html) [[PDF]](./29-slides.pdf)
 
 ### Computational Demos
 
