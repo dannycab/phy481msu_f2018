@@ -56,6 +56,7 @@ permalink: notes/index.html
 - Oct 31 Polarization II: [[HTML]](./27-slides.html) [[PDF]](./27-slides.pdf)
 - Nov 2 The D-field: [[HTML]](./28-slides.html) [[PDF]](./28-slides.pdf)
 - Nov 5 Using Boundary Conditions: [[HTML]](./29-slides.html) [[PDF]](./29-slides.pdf)
+- Nov 7 Boundary Conditions Example and Intro to Magnetism: [[HTML]](./30-slides.html) [[PDF]](./30-slides.pdf)
 
 ### Computational Demos
 
