@@ -59,6 +59,7 @@ permalink: notes/index.html
 - Nov 2 The D-field: [[HTML]](./28-slides.html) [[PDF]](./28-slides.pdf)
 - Nov 5 Using Boundary Conditions: [[HTML]](./29-slides.html) [[PDF]](./29-slides.pdf)
 - Nov 7 Boundary Conditions Example and Intro to Magnetism: [[HTML]](./30-slides.html) [[PDF]](./30-slides.pdf)
+- Nov 9 Magnetism and Velocity Selection: [[HTML]](./31-slides.html) [[PDF]](./31-slides.pdf)
 
 ### Computational Demos
 
