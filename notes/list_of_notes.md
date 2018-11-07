@@ -24,6 +24,8 @@ permalink: notes/index.html
 - [16 The D Field](./handwritten/16_D_Field.pdf)
 - [17 Boundary Conditions Electric Field](./handwritten/17_Boundary_Conditions_Electric_Field.pdf)
 - [18 Lorentz Force](./handwritten/18_Lorentz_Force.pdf)
+- [19 Current](./handwritten/19_Current.pdf)
+- [20 Magnetostatics](./handwritten/20_Magnetostatics.pdf)
 
 ### Slides
 
