@@ -12,7 +12,7 @@ Homework 11 completes our discussion of electric fields in matter and begins to 
 
 **TURN THIS WORK IN SEPARATE FROM YOUR REGULAR HOMEWORK TO DANNY**
 
-An examination is one measure of your understanding at a given moment in time. It is often a stressful and high stakes situation, which means that folks tend to perform differently depending on how this situation affects them. My goal is not for you to perform physics (i.e., just get the right answer), but to become reflective of your learning of physics (and of learning in general). To that end, I would like to invite you to re-solve the first exam. I will post a PDF online after the exam.
+An examination is one measure of your understanding at a given moment in time. It is often a stressful and high stakes situation, which means that folks tend to perform differently depending on how this situation affects them. My goal is not for you to perform physics (i.e., just get the right answer), but to become reflective of your learning of physics (and of learning in general). To that end, I would like to invite you to re-solve the first exam. The exam is [located here.](./images/exam2.pdf)
 
 In addition to solving the problems again, I would like you to write a short summary of what you felt like you did incorrectly at the time of the exam for each problem (i.e., what you think you got wrong and why) and how your solution resolves this problem (i.e., what approach you needed to take to solve the problem correctly). What I'm asking is that you reflect on your exam solutions and what understanding you needed to draw on to solve the problems.
 
