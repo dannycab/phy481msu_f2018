@@ -25,17 +25,6 @@ Note:
 
 <section data-markdown>
 
-## Anouncements
-* No exam grades yet...sorry :(
-  * By Friday...promise.
-* Homework 12 is due AFTER Thanksgiving break
-  * No homework due Wed. before Thanksgiving
-  * But, Homework 12 is about 1.5 times longer...
-
-</section>
-
-<section data-markdown>
-
 <img src="./images/linecurrent_plain.png" align="right" style="width: 400px";/>
 
 To find the magnetic field $\mathbf{B}$ at P due to a current-carrying wire we use the Biot-Savart law,
