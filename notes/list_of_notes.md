@@ -26,6 +26,9 @@ permalink: notes/index.html
 - [18 Lorentz Force](./handwritten/18_Lorentz_Force.pdf)
 - [19 Current](./handwritten/19_Current.pdf)
 - [20 Magnetostatics](./handwritten/20_Magnetostatics.pdf)
+- [21 Ampere's Law](./handwritten/21_Amperes_Law.pdf)
+- [22 Vector Potential](./handwritten/22_Vector_Potential.pdf)
+- [23 Magnetic Dipoles](./handwritten/23_Magnetic_Dipoles.pdf)
 
 ### Slides
 
