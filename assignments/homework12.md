@@ -1,7 +1,7 @@
 ---
 layout: homework
 use_math: true
-title: Homework 12 (Due November 29th)
+title: Homework 12 (Due November 30th)
 ---
 
 Homework 12 focuses on computing the magnetic field using Biot-Savart and Ampere's Law, which are the two direct methods for computing the magnetic field. It begins to introduce the vector potential, which is an alternative method for determining the magnetic field. It is quite a bit longer than the usual homework because it covers two weeks of class (i.e., it is not due until after Thanksgiving). However, there's no computational problem on this homework set.
