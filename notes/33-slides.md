@@ -107,37 +107,3 @@ What do you expect for direction of $\mathbf{B}(P)$? How about direction of $d\m
 Note:
 * CORRECT ANSWER: C
 </section>
-
-<section data-markdown>
-
-What is the magnitude of $\dfrac{d\mathbf{l}\times\hat{\mathfrak{R}}}{\mathfrak{R}^2}$?
-
-<img src="./images/ringcurrent_R.png" align="right" style="width: 400px";/>
-
-
-1. $\frac{dl \sin\phi}{z^2}$
-2. $\frac{dl}{z^2}$
-3. $\frac{dl \sin\phi}{z^2+a^2}$
-4. $\frac{dl}{z^2+a^2}$
-5. something else!
-
-Note:
-* CORRECT ANSWER: D
-
-</section>
-
-<section data-markdown>
-What is $d\mathbf{B}_z$ (the contribution to the vertical component of $\mathbf{B}$ from this $d\mathbf{l}$ segment?)
-
-<img src="./images/ringcurrent_R.png" align="right" style="width: 400px";/>
-
-1. $\frac{dl}{z^2+a^2}\frac{a}{\sqrt{z^2+a^2}}$
-1. $\frac{dl}{z^2+a^2}$
-1. $\frac{dl}{z^2+a^2}\frac{z}{\sqrt{z^2+a^2}}$
-1. $\frac{dl \cos \phi}{\sqrt{z^2+a^2}}$
-5. Something else!
-
-Note:
-* CORRECT ANSWER: A
-
-</section>

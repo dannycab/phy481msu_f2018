@@ -62,6 +62,7 @@ permalink: notes/index.html
 - Nov 9 Magnetism and Velocity Selection: [[HTML]](./31-slides.html) [[PDF]](./31-slides.pdf)
 - Nov 12 Current: [[HTML]](./32-slides.html) [[PDF]](./32-slides.pdf)
 - Nov 14 Finding $\mathbf{B}$ using the Biot-Savart Law: [[HTML]](./33-slides.html) [[PDF]](./33-slides.pdf)
+- Nov 16 Finding $\mathbf{B}$ using Ampere's Law: [[HTML]](./34-slides.html) [[PDF]](./34-slides.pdf)
 
 ### Computational Demos
 
