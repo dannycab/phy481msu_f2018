@@ -27,7 +27,7 @@ I will be in class on Wednesday.
 1. Yup
 2. Nope, hoss, I'll be out.
 
-</section>js
+</section>
 
 <section data-markdown>
 
