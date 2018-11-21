@@ -30,6 +30,8 @@ permalink: notes/index.html
 - [22 Vector Potential](./handwritten/22_Vector_Potential.pdf)
 - [23 Magnetic Dipoles](./handwritten/23_Magnetic_Dipoles.pdf)
 
+- [Thanksgiving Lecture - The Harmonic Oscillator Gets a Bad Rap](./handwritten/NLD_intro.pdf)
+
 ### Slides
 
 - Aug 29 Welcome to PHY 481: [[HTML]](./01-slides.html) [[PDF]](./01-slides.pdf)
@@ -73,3 +75,4 @@ permalink: notes/index.html
 
  - [Trapezoidal Rule Notebook](../jupyter/demos/Trapezoidal_Demo_Complete.ipynb)
  - [Spartan S Electric Field Superposition](../jupyter/demos/Demo-SuperpositionElectricFieldSpartanS.ipynb)
+ - [Phase Space Analysis](../jupyter/demos/Oscillations.ipynb)
