@@ -70,6 +70,7 @@ permalink: notes/index.html
 - Nov 16 Finding $\mathbf{B}$ using Ampere's Law: [[HTML]](./34-slides.html) [[PDF]](./34-slides.pdf)
 - Nov 19 Ampere's Law Examples: [[HTML]](./35-slides.html) [[PDF]](./35-slides.pdf)
 - Nov 21 The Harmonic Oscillator Gets a Bad Rap: [[HTML]](./NLD-slides.html) [[PDF]](./NLD-slides.pdf)
+- Nov 26 The Vector Potential [[HTML]](./36-slides.html) [[PDF]](./36-slides.pdf)
 
 ### Computational Demos
 

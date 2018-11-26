@@ -20,15 +20,6 @@ Note:
 
 <section data-markdown>
 
-## Announcements
-
-* Danny will be out Monday
-  * Norman Birge will cover class
-
-</section>
-
-<section data-markdown>
-
 Consider a toroid, which is like a finite solenoid connected end to end. In which direction do you expect the B field to point?
 
 <img src="./images/toroid.png" align="right" style="width: 300px";/>
