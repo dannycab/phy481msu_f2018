@@ -4,19 +4,6 @@ theme: white
 transition: slide
 ---
 
-<section data-markdown>
-
-Gauss' Law for magnetism, $\nabla \cdot \mathbf{B} = 0$ suggests we can generate a potential for $\mathbf{B}$. What form should the definition of this potential take ($\Phi$ and $\mathbf{A}$ are placeholder scalar and vector functions, respectively)?
-
-1. $\mathbf{B} = \nabla \Phi$
-2. $\mathbf{B} = \nabla \times \Phi$
-3. $\mathbf{B} = \nabla \cdot \mathbf{A}$
-4. $\mathbf{B} = \nabla \times \mathbf{A}$
-5. Something else?!
-
-Note:
-* CORRECT ANSWER: D
-</section>
 
 <section data-markdown>
 
@@ -52,6 +39,20 @@ Which Amperian loop would you draw to find B “inside” the Torus (region II)?
 Note:
 * CORRECT ANSWER: A
 
+</section>
+
+<section data-markdown>
+
+Gauss' Law for magnetism, $\nabla \cdot \mathbf{B} = 0$ suggests we can generate a potential for $\mathbf{B}$. What form should the definition of this potential take ($\Phi$ and $\mathbf{A}$ are placeholder scalar and vector functions, respectively)?
+
+1. $\mathbf{B} = \nabla \Phi$
+2. $\mathbf{B} = \nabla \times \Phi$
+3. $\mathbf{B} = \nabla \cdot \mathbf{A}$
+4. $\mathbf{B} = \nabla \times \mathbf{A}$
+5. Something else?!
+
+Note:
+* CORRECT ANSWER: D
 </section>
 
 <section data-markdown>
