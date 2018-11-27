@@ -71,6 +71,7 @@ permalink: notes/index.html
 - Nov 19 Ampere's Law Examples: [[HTML]](./35-slides.html) [[PDF]](./35-slides.pdf)
 - Nov 21 The Harmonic Oscillator Gets a Bad Rap: [[HTML]](./NLD-slides.html) [[PDF]](./NLD-slides.pdf)
 - Nov 26 The Vector Potential [[HTML]](./36-slides.html) [[PDF]](./36-slides.pdf)
+- Nov 28 Examples of the Vector Potential [[HTML]](./37-slides.html) [[PDF]](./37-slides.pdf)
 
 ### Computational Demos
 
