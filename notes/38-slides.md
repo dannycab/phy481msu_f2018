@@ -22,27 +22,16 @@ Note:
 <section data-markdown>
 ## Announcements
 
-* Homework 13
-  * Due Wednesday Dec 6th
-* Last class: Friday Dec 8th
-  * Full wrapup of everything we learned this year
-  * Don't miss it!
-* Final Exam: Tuesday Dec 12th
+* Final Exam: Tuesday Dec 11th
   * 12:45pm-2:45pm
   * In this room (BPS 1415)
   * See me for accomodations
-</section>
+  * Details on Monday
 
-<section data-markdown>
-## Special Colloquium
-
-### Danny's promotion talk
-
-* Tuesday, Dec 5th
-* 4:10pm-5:10pm
-* In this room (BPS 1415)
 
 </section>
+
+
 <section data-markdown>
 ## Magnetic Dipoles
 
@@ -84,5 +73,42 @@ Which ones can produce a dipole field at large distances?
 
 Note:
 * CORRECT ANSWER: E
+
+</section>
+
+<section data-markdown>
+
+<img src="./images/magnetic_dipole_oriented.png" align="left" style="width: 300px";/>
+
+Two magnetic dipoles $m_1$ and $m_2$ (**unequal** in magnitude) are oriented in three different ways.
+
+Which ones can produce a dipole field at large distances?
+
+1. None of these
+2. All three
+3. 1 only
+4. 1 and 2 only
+5. 1 and 3 only
+
+Note:
+* CORRECT ANSWER: B
+
+</section>
+
+<section data-markdown>
+
+## Magnets, how do they work?
+
+<img src="./images/icp.png" align="center" style="width: 700px";/>
+
+[Insane Clown Posse - Miracles](https://www.youtube.com/watch?v=_-agl0pOQfs)
+</section>
+
+<section data-markdown>
+
+## Paramagnetism & Magnetic Domains
+
+<img src="./images/magnetization.jpg" align="center" style="width: 700px";/>
+
 
 </section>
