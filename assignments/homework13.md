@@ -1,12 +1,12 @@
 ---
 layout: homework
 use_math: true
-title: Homework 13 (Due December 6th)
+title: Homework 13 (Due December 7th)
 ---
 
 Homework 13 finishes our discussion of magnetism by focusing on the vector potential, which is a useful tool for calcualting the magnetic field in some problems, and magnetic dipoles.
 
-[Dropbox file request for Homework 13](https://www.dropbox.com/request/EbEULCAUiKkXHPuAvTpZ)
+[Dropbox file request for Homework 13](https://www.dropbox.com/request/mf0THidGcoxyWqWXHZhH)
 
 
 ## 1. Vector Potential I
@@ -44,7 +44,7 @@ $$\mathbf{B} = \dfrac{\mu_0}{4 \pi r^3}(3 (\mathbf{m}\cdot\hat{r})\hat{r} - \mat
 
 ## 4. The magnetic bottle
 
-On homework 11, you developed a visualization for the magnetic dipole. Here's a jupyter notebook that produces that visualization in two-dimesions ([download it](../jupyter/HW13-MotionInAMagneticBottle.ipynb) or [view it here](https://github.com/dannycab/phy481msu_f2017/blob/master/jupyter/HW13-MotionInAMagneticBottle.ipynb)). In this problem, you will add a second dipole of the same strength that points in the same direction as the previous one and investigate the motion of a charged particle in that magnetic field.
+On homework 11, you developed a visualization for the magnetic dipole. Here's a jupyter notebook that produces that visualization in two-dimesions ([download it](../jupyter/HW13-MotionInAMagneticBottle.ipynb) or [view it here](https://github.com/dannycab/phy481msu_f2018/blob/master/jupyter/HW13-MotionInAMagneticBottle.ipynb)). In this problem, you will add a second dipole of the same strength that points in the same direction as the previous one and investigate the motion of a charged particle in that magnetic field.
 
 1. Place one magnetic dipole at $z = 10.0$, and the other at $z=−10.0$. Let both dipole moments point in the positive $z$-direction, with equal magnitude $10^4$. Make a vector plot of the resulting magnetic field, and describe your plot.
 2. Make a hypothesis about what the charged particle's trajectory will be shaped like. Based on your vector plot and your physics knowledge, do you predict that the particle will be successfully confined? Why or why not?
