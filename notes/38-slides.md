@@ -57,6 +57,44 @@ Note:
 
 </section>
 
+
+<section data-markdown>
+
+The vector potential for the dipole is:
+
+$\mathbf{A}_d = \dfrac{\mu_0}{4\pi r^2} \mathbf{m} \times \hat{\mathbf{r}}$
+
+What is the magnitude of that cross product $|\mathbf{m} \times \hat{\mathbf{r}}|$?
+
+1. 1
+2. $m$
+3. $m r\sin\theta$
+4. $m\sin\theta$
+5. Something else?
+
+Note: Correct Answer is D
+
+</section>
+
+<section data-markdown>
+
+The vector potential for the dipole is:
+
+$\mathbf{A}_d = \dfrac{\mu_0}{4\pi r^2} \mathbf{m} \times \hat{\mathbf{r}}$
+
+If the magnetic dipole moment points in the $\hat{\mathbf{z}}$ direction, what is the direction of the $\mathbf{A}_d$?
+
+1. $\hat{\mathbf{z}}$
+2. $\hat{\mathbf{\phi}}$
+3. $\hat{\mathbf{r}}$
+4. $\hat{\mathbf{m}}$
+5. Something else?
+
+Note: Correct Answer is B
+
+</section>
+
+
 <section data-markdown>
 
 <img src="./images/magnetic_dipole_oriented.png" align="left" style="width: 300px";/>
