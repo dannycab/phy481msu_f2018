@@ -20,28 +20,6 @@ Note:
 </section>
 
 <section data-markdown>
-## Announcements
-
-* Final Exam!
-  * 12:45-2:45pm, Tues Dec. 12
-  * In this room (1415 BPS)
-
-</section>
-
-<section data-markdown>
-## What's on the final exam?
-
-* A few true/false questions about $\mathbf{B}$, $\mathbf{H}$, and Ampere's Law
-* Determine bound charge, $\mathbf{E}$, $\mathbf{D}$ for some material ($\mathbf{P}$), and explain how quantities might change
-* Determine and explain the direction of the force between two dipoles in some configuration
-* Determine the $\mathbf{B}$ for some $\mathbf{J}$
-* Determine bound currents, $\mathbf{B}$, and $\mathbf{H}$ for some material with a "simple" free current, and explain properties of the bound currents
-
-
-</section>
-
-
-<section data-markdown>
 
 A very long aluminum (paramagnetic!) rod carries a uniformly distributed current $I$ along the $+z$ direction.
 What is the direction of the bound volume current?

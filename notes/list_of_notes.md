@@ -29,6 +29,10 @@ permalink: notes/index.html
 - [21 Ampere's Law](./handwritten/21_Amperes_Law.pdf)
 - [22 Vector Potential](./handwritten/22_Vector_Potential.pdf)
 - [23 Magnetic Dipoles](./handwritten/23_Magnetic_Dipoles.pdf)
+- [24 Magnetization](./handwritten/24_Magnetization.pdf)
+- [25 Bound Currents](./handwritten/25_Bound_Currents.pdf)
+- [26 The H Field](./handwritten/26_H_Field.pdf)
+- [27 Linearly Magnetizable Materials](./handwritten/27_Linear_Magnetizable_Materials.pdf)
 
 - [Thanksgiving Lecture - The Harmonic Oscillator Gets a Bad Rap](./handwritten/NLD_intro.pdf)
 
@@ -73,6 +77,9 @@ permalink: notes/index.html
 - Nov 26 The Vector Potential [[HTML]](./36-slides.html) [[PDF]](./36-slides.pdf)
 - Nov 28 Examples of the Vector Potential [[HTML]](./37-slides.html) [[PDF]](./37-slides.pdf)
 - Nov 30 Magnetic Dipoles [[HTML]](./38-slides.html) [[PDF]](./38-slides.pdf)
+- Dec 3 Introduction to Magnetization [[HTML]](./39-slides.html) [[PDF]](./39-slides.pdf)
+- Dec 5 Magnetization and Bound Currents [[HTML]](./40-slides.html) [[PDF]](./40-slides.pdf)
+- Dec 7 The H-Field [[HTML]](./41-slides.html) [[PDF]](./41-slides.pdf)
 
 ### Computational Demos
 

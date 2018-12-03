@@ -6,43 +6,6 @@ transition: slide
 
 <section data-markdown>
 
-<img src="./images/magnetic_dipole_oriented.png" align="left" style="width: 300px";/>
-
-Two magnetic dipoles $m_1$ and $m_2$ (**unequal** in magnitude) are oriented in three different ways.
-
-Which ones can produce a dipole field at large distances?
-
-1. None of these
-2. All three
-3. 1 only
-4. 1 and 2 only
-5. 1 and 3 only
-
-Note:
-* CORRECT ANSWER: B
-
-</section>
-
-<section data-markdown>
-
-## Magnets, how do they work?
-
-<img src="./images/icp.png" align="center" style="width: 700px";/>
-
-[Insane Clown Posse - Miracles](https://www.youtube.com/watch?v=_-agl0pOQfs)
-</section>
-
-<section data-markdown>
-
-## Paramagnetism & Magnetic Domains
-
-<img src="./images/magnetization.jpg" align="center" style="width: 700px";/>
-
-
-</section>
-
-<section data-markdown>
-
 <img src="./images/loop_in_B_field.png" align="center" style="width: 550px";/>
 
 The force on a segment of wire $L$ is $\mathbf{F} = I \mathbf{L} \times \mathbf{B}$ A current-carrying wire loop is in a constant magnetic field $\mathbf{B} = B \hat{z}$ as shown. What is the direction of the torque on the loop?
@@ -58,6 +21,28 @@ Note:
 </section>
 
 <section data-markdown>
+## Announcements
+
+* Final Exam!
+  * 12:45-2:45pm, Tues Dec. 11
+  * In this room (1415 BPS)
+
+</section>
+
+<section data-markdown>
+## What's on the final exam?
+
+* A few true/false questions conceptual questions.
+* Determine bound charge, $\mathbf{E}$, $\mathbf{D}$, $\mathbf{P}$ for some material with $\chi_e$, and explain where the bound charge is.
+* Setup magnetic vector potential and field calculations. Compare the appraoches.
+* Determine the $\mathbf{B}$ for some $\mathbf{J}$ using Ampere's Law.
+* (BONUS) Determine bound currents, $\mathbf{B}$, and $\mathbf{H}$ for some material with a "simple" free current, and explain properties of the bound currents
+
+
+</section>
+
+
+<section data-markdown>
 
 The torque on a magnetic dipole in a B field is:
 
@@ -67,26 +52,6 @@ How will a small current loop line up if the B field points uniformly up the pag
 
 <img src="./images/mag_loops.png" align="center" style="width: 800px";/>
 
-
-</section>
-
-
-
-<section data-markdown>
-
-Suppose I place a small dipole $\mathbf{M}$ at various locations near the end of a large solenoid. At which point is the magnitude of the force on the dipole greatest?
-
-<img src="./images/force_on_mag_dipole.png" align="center" style="width: 600px";/>
-
-
-D) Not enough information to answer
-
-E) There is no net force on a dipole
-
-Recall: $\mathbf{F} = \nabla (\mathbf{m}\cdot\mathbf{B})$
-
-Note:
-* CORRECT ANSWER: B
 
 </section>
 
