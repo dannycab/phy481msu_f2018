@@ -42,7 +42,7 @@ $$\mathbf{B} = \dfrac{\mu_0}{4 \pi r^3}(3 (\mathbf{m}\cdot\hat{r})\hat{r} - \mat
 
 *Coordinate free formulas are nice, because now you can find B for more general situations!*
 
-## 4. The magnetic bottle
+## 4. The magnetic bottle (EXTRA CREDIT)
 
 On homework 11, you developed a visualization for the magnetic dipole. Here's a jupyter notebook that produces that visualization in two-dimesions ([download it](../jupyter/HW13-MotionInAMagneticBottle.ipynb) or [view it here](https://github.com/dannycab/phy481msu_f2018/blob/master/jupyter/HW13-MotionInAMagneticBottle.ipynb)). In this problem, you will add a second dipole of the same strength that points in the same direction as the previous one and investigate the motion of a charged particle in that magnetic field.
 
