@@ -79,6 +79,7 @@ permalink: notes/index.html
 - Nov 30 Magnetic Dipoles [[HTML]](./38-slides.html) [[PDF]](./38-slides.pdf)
 - Dec 3 Magnetization and Bound Currents [[HTML]](./39-slides.html) [[PDF]](./39-slides.pdf)
 - Dec 5 The H-Field [[HTML]](./40-slides.html) [[PDF]](./40-slides.pdf)
+- Dec 7 Wrap-up [[HTML]](./41-slides.html) [[PDF]](./41-slides.pdf)
 
 ### Computational Demos
 
